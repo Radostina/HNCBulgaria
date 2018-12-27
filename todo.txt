@@ -1,6 +1,9 @@
 to do
 plc
 a8c - downloads, works - rar - What is it & user manual
+a1p - no image
+a2p - no image
+a2p - user manual and programming manual don't load, but I think are the same as a1p
 
 all
 hmi
