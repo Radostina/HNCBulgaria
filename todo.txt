@@ -1,0 +1,13 @@
+to do
+plc
+all
+hmi
+2543 ne 1343 
+bez op
+
+
+
+bugs in the original site
+plc
+downloads hca8c
+hca8c - user manual leads to the overview page, not a documentation
