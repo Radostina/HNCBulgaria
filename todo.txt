@@ -1,5 +1,7 @@
 to do
 plc
+a8c - downloads, works - rar - What is it & user manual
+
 all
 hmi
 2543 ne 1343 

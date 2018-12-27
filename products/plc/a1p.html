@@ -1,52 +1,273 @@
-						<!-- <tr>
-							<td colspan="2">Performance</td>
-						</tr>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>product</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC Modules</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="a1p.png" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">HC-A1P Series PLC</h2>
+
+			<div class="w3-container">
+				<p>
+					The HC-A1P is a PLC solution for space and cost conscious applications requiring up to 30 I/O. The minimum-expandability, battery-less, maintenance free controller can have less maintenance activities. It is perfect for handling straightforward processes.
+				</p>
+			</div>
+
+			<div class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					The HC-A1P is a PLC solution for space and cost conscious applications requiring up to 30 I/O. The minimum-expandability, battery-less, maintenance free controller can have less maintenance activities. It is perfect for handling straightforward processes.
+				</p>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+1. Basic controller for general applications 
+
+2.  High performance with minimal size 
+
+3.  Integrated power supply (AC or DC powered) 
+
+4. Maintenance-free EEPROM memory 
+
+5. Ample memory capacity (2000 steps) and device ranges 
+
+6.  High-speed operations 
+
+7.  Integrated real-time clock 
+
+8.  Increased functionality using Expansion Boards and 
+
+9.  Built-in RS422/485
+
+10.  Programming with GX Developer  </pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
 						<tr>
-							<td>Program memory</td>
-							<td>2000 steps(EEPROM),no battery Transmit storage box available</td>
+							<th>Item</th>
+							<th>Spcification</th>
 
 						</tr>
 						<tr>
-							<td>Time function</td>
-							<td> Integrated real-time clock</td>
-
+							<th colspan="2">Power supply</th>
 						</tr>
 						<tr>
-							<td>Instruction</td>
-							<td>Standard:27 <br />step ladder:2 <br />Special function:85</td>
-
+							<td>Power supply</td>
+							<td> AC POWERED MODULE: AC 100~240V
+							<br />
+							DC POWERED MODULE: DC 24V </td>
 						</tr>
 						<tr>
-							<td>Cycle time per log. Instruction</td>
-							<td>Standard:0.5~0.7μs <br />Special:3.7~hundreds μs</td>
-
+							<td> Power consumption </td>
+							<td> AC POWERED : 19W(6X4Y,8X6Y), 20W(12X8Y ), 21W(16X14Y )
+							<br />
+							DC POWERED : 6W( 6X4Y ), 6.5W( 8X6Y ), 7W( 12  X8Y ), 8W( 1  6X14Y ) </td>
 						</tr>
 						<tr>
-							<td>High speed processing</td>
-							<td>I/O refresh instruction is available</td>
-
+							<td> In-rush current </td>
+							<td> AC POWERED : 15A(max.) 5ms(at AC100V), 25A(max.) 5ms(at AC200V)
+							<br />
+							DC POWERED : 10A(max.) 100μs (at DC24V) </td>
 						</tr>
 						<tr>
-							<td>Max integrated I/O point</td>
-							<td>30 points(Additional increase 4 input and 2 output points with expansion
+							<td> Power supply(DC24V) </td>
+							<td> AC POWERED MODULE:DC24V 400mA </td>
+						</tr>
+						<tr>
+							<td> Input Spec. </td>
+							<td> DC24V 7mA/5mA </td>
+						</tr>
+						<tr>
+							<td> Output Spec. </td>
+							<td> Relayoutput: 2A/1 point,8A/4points COM ≤AC250V, ≤DC30V
+							<br />
+							Transistor output: 0.5A/1 point,0.8A/4 points COM DC5V~30V </td>
+						</tr>
+						<tr>
+							<td> I/O and Special function expansion </td>
+							<td> Increase digital or analogue I/O points with expansion board </td>
+						</tr>
+						<tr>
+							<th colspan="2">Performance</th>
+						</tr>
+						<tr>
+
+							<td> Program memory </td>
+							<td> 2000 steps(EEPROM),no battery Transmit storage box available </td>
+						</tr>
+						<tr>
+							<td> Time function </td>
+							<td> Integrated real-time clock </td>
+						</tr>
+						<tr>
+							<td> Instruction </td>
+							<td> Standard:27 step ladder:2 special function:85 </td>
+						</tr>
+						<tr>
+							<td> Cycle time per log. Instruction </td>
+							<td> Standard:0.5~0.7μs special:3.7~hundreds μs </td>
+						</tr>
+						<tr>
+							<td> High speed processing </td>
+							<td> I/O refresh instruction is available </td>
+						</tr>
+						<tr>
+							<td> Max integrated I/O point </td>
+							<td> 30 points(Additional increase 4 input and 2 output points with expansion
+							<br />
 							board) </td>
-
 						</tr>
 						<tr>
-							<td>Auxiliary relay & timers</td>
-							<td>Auxiliary: 512 points<br /> Timer: 64 points</td>
-
+							<td> Auxiliary relay and timers </td>
+							<td> Auxiliary: 512 points
+							<br />
+							timer: 64 points </td>
 						</tr>
 						<tr>
-							<td>Counter</td>
-							<td> General:32 points<br />
-High speed counters: (1 phase)60KHz/2 points<br />
+							<td> Counter </td>
+							<td> General:32 points
+							<br />
+							High speed counters: (1 phase)60KHz/2 points,
 
-10KHz/4 points(2 phase),<br />30KHz/1 point,<br />5KHz/1point </td>
-
+							10KHz/4 points(2 phase),30KHz/1 point,5KHz/1point </td>
 						</tr>
 						<tr>
-							<td>Data registers</td>
-							<td>General:256 points,Index:16 points,File:1500 points(max.)</td>
+							<td> Data registers </td>
+							<td> General:256 points,Index:16 points,File:1500 points(max.) </td>
+						</tr>
+						<tr>
+							<th colspan="2">Others</th>
+						</tr>
+						<tr>
+							<td> Analog potentionmeter </td>
+							<td> Built-in 2 points </td>
+						</tr>
+						<tr>
+							<td> Internal communication interface </td>
+							<td> Built-in RS422/485 </td>
+						</tr>
+						<tr>
+							<td> Communication </td>
+							<td> RS-232C,RS-485,RS-422,N:Nnet,parallel link, PC communication </td>
+						</tr>
+					</table>
+				</div>
+				<div class="w3-container">
 
-						</tr> -->
+					<img class="w3-image w3-center" src="a1p_parameters.png" />
+				</div>
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+					
+					<img class="w3-image w3-center" src="a1p_dimensions_1.png" />
+					<img class="w3-image w3-center" src="a1p_dimensions_2.png" />
+					<img class="w3-image w3-center" src="a1p_dimensions_3.png" />
+					<img class="w3-image w3-center" src="a1p_dimensions_4.png" />
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<a href="a1p_user_manual.pdf">User manual</a>
+				<a href="a1p_programming_manual.pdf">Programming manual</a>
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
