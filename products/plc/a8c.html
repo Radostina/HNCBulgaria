@@ -6,7 +6,7 @@
 		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
- 
+
 		<title>product</title>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<meta name="description" content="">
@@ -65,14 +65,20 @@
 			</div>
 
 			<div class="w3-bar w3-red w3-border w3-border-red">
-				<button class="w3-bar-item w3-button tablink w3-white" onclick="openInfoType(event,'Overview')">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
 					Overview
 				</button>
-				<button class="w3-bar-item w3-button tablink" onclick="openInfoType(event,'Features')">
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
 					Features
 				</button>
-				<button class="w3-bar-item w3-button tablink" onclick="openInfoType(event,'Parameters')">
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
 					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
 				</button>
 			</div>
 
@@ -92,36 +98,11 @@
 6.Simultaneous memory cassette and display module mounting available 
 7.Integrated real-time clock 
 8.Easy programming with large instruction set and table positioning configuration 
-9.Large programming memory </pre>																																																																																												
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+9.Large programming memory </pre>
 			</div>
-
 			<div id="Parameters" class="w3-container infoType" style="display:none">
 
-				<div class="w3-container w3-center">
+				<div class="w3-container">
 					<h2>HCA8C Basic Units</h2>
 					<img class="w3-image w3-center" src="a8c_parameters.png" />
 				</div>
@@ -297,6 +278,217 @@
 				</div>
 
 			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+					<h2>Part names</h2>
+					<img class="w3-image w3-center" src="a8c_dimensions.jpg" />
+				</div>
+
+				<div class="w3-container">
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td > NO. </td>
+							<td colspan="3" > Name </td>
+						</tr>
+						<tr>
+							<td > [1] </td>
+							<td colspan="3"  > Top cover </td>
+						</tr>
+						<tr>
+							<td > [2] </td>
+							<td colspan="3"  > Battery cover </td>
+						</tr>
+						<tr>
+							<td > [3] </td>
+							<td  colspan="3" > Special adapter connecting hooks(2 places) </td>
+						</tr>
+						<tr>
+							<td > [4] </td>
+							<td colspan="3"  > Expansion board dummy cover </td>
+						</tr>
+						<tr>
+							<td > [5] </td>
+							<td colspan="3" > RUN/STOP switch </td>
+						</tr>
+						<tr>
+							<td > [6] </td>
+							<td colspan="3" > Peripheral device connecting connector </td>
+						</tr>
+						<tr>
+							<td > [7] </td>
+							<td colspan="3" > DIN rail mounting hooks </td>
+						</tr>
+						<tr>
+							<td > [8] </td>
+							<td colspan="3" > Model name (abbreviation) </td>
+						</tr>
+						<tr>
+							<td > [9] </td>
+							<td colspan="3" > Input display LEDs (Red) </td>
+						</tr>
+						<tr>
+							<td > [10] </td>
+							<td colspan="3" > Terminal block cover </td>
+						</tr>
+						<tr>
+							<td > [11] </td>
+							<td colspan="3" > Extension device connecting connector cover </td>
+						</tr>
+						<tr>
+
+							<td colspan="4"> Operation status display LEDs </td>
+						</tr>
+						<tr>
+							<td rowspan="5"> [12] </td>
+							<td > POWER </td>
+							<td > Green </td>
+							<td> On while power is on the PLC. </td>
+						</tr>
+						<tr>
+
+							<td > RUN </td>
+							<td > Green </td>
+							<td> On while the PLC is running. </td>
+						</tr>
+						<tr>
+
+							<td > BATT </td>
+							<td > Red </td>
+							<td> Lights when the battery voltage drops </td>
+						</tr>
+						<tr>
+
+							<td rowspan="2"> ERROR </td>
+							<td > Red </td>
+							<td> Flash when a program error occurs </td>
+						</tr>
+						<tr>
+							<td > Red </td>
+							<td> Lights when a CPU error occurs. </td>
+						</tr>
+						<tr>
+							<td > [13] </td>
+							<td  > Output display LEDs (Red) </td>
+						</tr>
+					</table>
+				</div>
+				<div class="w3-container">
+					<h2>With terminal cover open</h2>
+					<img class="w3-image w3-center" src="a8c_dimensions2.jpg" />
+					<div class="w3-container">
+						<table class="w3-table w3-striped w3-bordered w3-hoverable">
+							<tr>
+								<td > NO. </td>
+								<td > Name </td>
+							</tr>
+							<tr>
+								<td > [1] </td>
+								<td > Protective terminal covers </td>
+							</tr>
+							<tr>
+								<td > [2] </td>
+								<td > Power supply, Input (X) terminals </td>
+							</tr>
+							<tr>
+								<td rowspan="2" > [3] </td>
+								<td > Terminal block mounting screws </td>
+							</tr>
+							<tr>
+								<td > (HCA8-8X8YT□ terminals block cannot be installed/ removed.) </td>
+							</tr>
+							<tr>
+								<td > [4] </td>
+								<td > Terminal names </td>
+							</tr>
+							<tr>
+								<td > [5] </td>
+								<td > Output (Y  ) terminals </td>
+							</tr>
+						</table>
+					</div>
+					<pre>The products model name with ‘-A’ have no protective terminal covers.
+
+External dimension and weight
+
+2-φ4.5-diam mounting holes (HCA8-8X8YT□, HCA8-16X16YT□)*1
+
+4-φ4.5-diam mounting holes (HCA8-24X24YT□, HCA8-32X32YT□, HCA8-64X64YT□)
+
+HCA8-8X8YT□, HCA8-16X16YT□*2 do not have the  (*)-marked mounting holes.
+
+  </pre>																									
+									
+			
+				
+
+
+
+
+
+
+				</div>
+
+				<div class="w3-container">
+
+					<img class="w3-image w3-center" src="a8c_dimensions3.jpg" />
+					<h2> Mounting hole pitches </h2>
+					<pre>
+1 Mounting holes for HCA8-16X16YT/UA1 are 4-φ4.5.
+
+2 HCA8-16X16YT/UA1 is excluded.</pre>
+					<div class="w3-container">
+						<table class="w3-table w3-striped w3-bordered w3-hoverable">
+							<tr>
+								<td > Model  name </td>
+								<td > W(mm) </td>
+								<td > W1(mm)  Direct  mounting  hole  pitches </td>
+								<td > Weight(kg) </td>
+							</tr>
+							<tr>
+								<td > HCA8-8X8YT </td>
+								<td > 130 </td>
+								<td > 103 </td>
+								<td > 0.6 </td>
+							</tr>
+							<tr>
+								<td > HCA8-16X16YT*3 </td>
+								<td > 150 </td>
+								<td > 123 </td>
+								<td > 0.65 </td>
+							</tr>
+							<tr>
+								<td > HCA8-24X24YT</td>
+								<td > 182 </td>
+								<td > 155 </td>
+								<td > 0.85 </td>
+							</tr>
+							<tr>
+								<td > HCA8-32X32YT*4 </td>
+								<td > 220 </td>
+								<td > 193 </td>
+								<td > 1.00 </td>
+							</tr>
+							<tr>
+								<td > HCA8-40X40YT </td>
+								<td > 285 </td>
+								<td > 258 </td>
+								<td > 1.20 </td>
+							</tr>
+							<tr>
+								<td > HCA8-64X64YT </td>
+								<td > 350 </td>
+								<td > 323 </td>
+								<td > 1.80 </td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<p>
+					HC-A8C, is high performance modular PLC. It is the original dual system bus, and now become much faster. The extensible compact PLC is designed to seamlessly control communication network and analog positioning system. With maximum of 384 controllable local and networked Input / Output via CC-Link / AS-i, the HC-A8C uses its power and flexibility to provide solutions for variety of applications.
+				</p>
+			</div>
 		</div>
 		<script>
 			function openInfoType(evt, infoTypeName) {
@@ -307,13 +499,13 @@
 				}
 				tablinks = document.getElementsByClassName("tablink");
 				for ( i = 0; i < x.length; i++) {
-					tablinks[i].className = tablinks[i].className.replace(" w3-white", "");
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
 				}
 				document.getElementById(infoTypeName).style.display = "block";
 				evt.currentTarget.className += " w3-white";
 			}
 		</script>
-	
+
 		<script>
 			function w3_open() {
 				document.getElementById("mySidebar").style.display = "block";
