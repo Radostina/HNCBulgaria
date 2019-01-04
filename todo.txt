@@ -4,6 +4,10 @@ a8c - downloads, works - rar - What is it & user manual
 a1p - no image
 a2p - no image
 a2p - user manual and programming manual don't load, but I think are the same as a1p
+Uploading the user manuals
+TITLE!!!
+?????? ???????? ????? ?? ?? ?????? ????????!!!
+
 
 all
 hmi
@@ -11,6 +15,7 @@ hmi
 bez op
 
 
+problems - programming manual a8p - too big, slow download
 
 bugs in the original site
 plc
