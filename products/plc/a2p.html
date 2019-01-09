@@ -64,7 +64,7 @@
 				</p>
 			</div>
 
-			<div class="w3-bar w3-red w3-border w3-border-red">
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
 				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
 					Overview
 				</button>
@@ -209,7 +209,7 @@
 				</div>
 				<div class="w3-container">
 
-					<img class="w3-image w3-center" src="a1p_parameters.png" />
+					<img class="w3-image w3-center" src="a2p_parameters.png" />
 				</div>
 			</div>
 			<div id="Dimensions" class="w3-container infoType" style="display:none">
@@ -241,6 +241,8 @@
 				}
 				document.getElementById(infoTypeName).style.display = "block";
 				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
 			}
 		</script>
 

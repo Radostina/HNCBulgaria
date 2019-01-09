@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>PLC HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC Modules</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="a2c.png" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">HC-A2C Series PLC</h2>
+
+			<div class="w3-container">
+				<p>
+					HC-A2C, is high performance modular PLC. The extensible compact PLC is designed to seamlessly control communication network and analog positioning system.
+				</p>
+			</div>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					HC-A2C, is high performance modular PLC. The extensible compact PLC is designed to seamlessly control communication network and analog positioning system. Maximum number of input/output points (including I/O points of extension blocks and the main unit) is 128 points, up to max. 384 points when HC-LINK is used, the HC-A2C uses its power and flexibility to provide solutions for variety of applications.
+				</p>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+1.3rd generation compact PLC 
+2.Modular PLC, input/output extension blocks can be connected, up to 7 HCA2C Series special function blocks can be connected.
+3.Support all-serises HC8C right expansion
+3.High efficiency with more speed, more performance, more memory, and new functions. 
+4.Built-in high speed processing and positioning 
+5.Exchangeable communication expansion boards that mount directly into the main unit (RS-232C) 
+6.Simultaneous memory cassette and display module mounting available 
+7.Integrated real-time clock 
+8.Easy programming with large instruction set
+9.Large programming memory
+</pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+
+					<img class="w3-image w3-center" src="a2c_parameters.jpg" />
+				</div>
+				<div class="w3-container">
+
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<th colspan="3">Items</th>
+							<th colspan="2">Specification</th>
+						</tr>
+						<tr>
+							<td  colspan="3"> External power supply </td>
+							<td colspan="2"> 5 to 30V DC </td>
+						</tr>
+						<tr>
+							<td colspan="3"> Open circuit leakage current </td>
+
+							<td colspan="2"> 0.1mA or less/30V DC </td>
+						</tr>
+						<tr>
+							<td colspan="3"> ON voltage </td>
+							<td colspan="2"> 1.5V </td>
+						</tr>
+						<tr>
+							<td  colspan="3"> Circuit insulation </td>
+							<td  colspan="2"> Photocoupler insulation </td>
+						</tr>
+						<tr>
+							<th colspan="5"> Resistance load </th>
+						</tr>
+						<tr>
+							<td rowspan="2" colspan="2"> Main unit </td>
+							<td > Y000 to  Y001 </td>
+							<td > 0.3A/1  point </td>
+							<td rowspan="2"> Make sure  that the total load current of 16 resistance load points is 1.6A or less </td>
+						</tr>
+						<tr>
+							<td > Y002 to  Y007 </td>
+							<td > 0.1A/1 point </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-16EYT, HCA8C-32EYT </td>
+							<td colspan="2"> 0.1A/1 point </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-16EYT-C </td>
+							<td > 0.3A/1 point </td>
+							<td> Make sure that the total load current of 16  resistance load points is 1.6A or less. </td>
+						</tr>
+
+						<tr>
+							<td colspan="3"> HCA8C-8EYT
+							<br />
+							HCA8C-16EYT
+							<br />
+							HCA8C-16EYR </td>
+							<td > 0.5A/1 point </td>
+							<td> The total load current of resistance loads per  common terminal should be the followhing value.
+
+							4points/common: 0.8A
+
+							8points/common: 1.6A </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-8EYTR </td>
+							<td > 1A/1 point </td>
+							<td > Make sure that the total load current of 4  resistance load points is 2A or less. </td>
+						</tr>
+						<tr>
+							<th colspan="5" > Inductive load </th>
+						</tr>
+						<tr>
+							<td rowspan="2" colspan="2"> Main unit </td>
+							<td > Y000 to  Y001 </td>
+							<td > 7.2W/1  point
+
+							(24V DC) </td>
+							<td rowspan="2" colspan="2"> Make sure  that the total load of 16 inductive load points is 38.4W/24V DC or less. </td>
+						</tr>
+						<tr>
+							<td> Y002 to  Y007 </td>
+							<td > 2.4W/1  point
+
+							(24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-16EYT, HCA8C-32EYT </td>
+							<td colspan="2"> 2.4W/1 point (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-16EYT-C </td>
+							<td colspan="2"> 7.2W/1 point (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-8EYT, HCA8C-16EYT, HCA8C-16EYR </td>
+							<td colspan="2" > 12W/1 point (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-8EYT-H </td>
+							<td colspan="2"> 24W/1 point (24V DC) </td>
+						</tr>
+						<tr>
+							<th colspan="5" > Lamp load </th>
+						</tr>
+						<tr>
+							<td colspan="2" rowspan="2"> Main unit </td>
+							<td > Y000 to Y001 </td>
+							<td > 0.9W/1 point
+
+							(24V DC) </td>
+							<td rowspan="2"> Make sure that the total load of 16 lamp  load points is 4.8W/24V DC or less. </td>
+						</tr>
+						<tr>
+							<td > Y002 to Y007 </td>
+							<td > 0.3W/1 point
+
+							(24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-16EYT, HCA8C-32EYT </td>
+							<td colspan="2"> 0.3W/1 point (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-16EYT-C </td>
+							<td colspan="2"> 1W/1 point (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-8EYT, HCA8C-16EYT,
+
+							HCA8C-16EYR </td>
+							<td colspan="2"> 1.5W/1 point (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="3"> HCA8C-8EYTR </td>
+							<td colspan="2"> 3W/1 point (24V DC) </td>
+						</tr>
+
+						<tr>
+							<th colspan="5" > Response time </th>
+						</tr>
+						<tr>
+							<td rowspan="3"> OFF→ON </td>
+							<td rowspan="2"> Main unit </td>
+							<td > Y000 to Y001 </td>
+							<td colspan="2"> 5µs or less/10mA or more (5 to 24V DC) </td>
+						</tr>
+						<tr>
+							<td > Y002 to Y007 </td>
+							<td rowspan="2" colspan="2"> 0.2ms or less/100mA (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Extension blocks </td>
+						</tr>
+						<tr>
+							<td rowspan="3"> ON→OFF </td>
+							<td rowspan="2"> Main unit </td>
+							<td > Y000 to Y001 </td>
+							<td colspan="2"> 5µs or less/10mA or more (5 to 24V DC) </td>
+						</tr>
+						<tr>
+							<td > Y002 to Y007 </td>
+							<td colspan="2" rowspan="2"> 0.2ms or less/100mA (24V DC) </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Extension blocks </td>
+						</tr>
+
+						<tr>
+							<th  colspan="5"> Output operation display </th>
+						</tr>
+						<tr>
+							<td colspan="3"> Main unit </td>
+							<td  colspan="2"> Monitored by the display module </td>
+						</tr>
+						<tr>
+							<td colspan="3"> Extension blocks </td>
+							<td colspan="2"> LED on panel lights when photocoupler is  driven. </td>
+						</tr>
+
+					</table>
+				</div>
+
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+					<h2>Part names</h2>
+					<img class="w3-image w3-center" src="a2c_dimensions_1.jpg" />
+					<img class="w3-image w3-center" src="a2c_dimensions_2.png" />
+					<br />
+					<img class="w3-image w3-center" src="a2c_dimensions_3.png" />
+					<img class="w3-image w3-center" src="a2c_dimensions_4.png" />
+					<br />
+					<h2>Sharp and dimensions</h2>
+					<img class="w3-image w3-center" src="a2c_dimensions_5.jpg" />
+					<img class="w3-image w3-center" src="a2c_dimensions_6.jpg" />
+					<br />
+					<img class="w3-image w3-center" src="a2c_dimensions_7.jpg" />
+					<img class="w3-image w3-center" src="a2c_dimensions_8.jpg" />
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<a href="a2c_user_manual.pdf">User manual</a>
+
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>

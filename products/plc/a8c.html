@@ -64,7 +64,7 @@
 				</p>
 			</div>
 
-			<div class="w3-bar w3-red w3-border w3-border-red">
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
 				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
 					Overview
 				</button>
@@ -117,7 +117,7 @@
 
 						</tr>
 						<tr>
-							<th colspan="2">Power supply</td>
+							<th colspan="2">Power supply</th>
 						</tr>
 						<tr>
 							<td>Power supply (DC24V)</td>
@@ -416,10 +416,11 @@ External dimension and weight
 
 HCA8-8X8YT□, HCA8-16X16YT□*2 do not have the  (*)-marked mounting holes.
 
-  </pre>																									
+  </pre>																														
 									
 			
 				
+
 
 
 
@@ -485,7 +486,7 @@ HCA8-8X8YT□, HCA8-16X16YT□*2 do not have the  (*)-marked mounting holes.
 				</div>
 			</div>
 			<div id="Download" class="w3-container infoType" style="display:none">
-				 <a href="a8c_user_manual.pdf">User manual</a> 
+				<a href="a8c_user_manual.pdf">User manual</a>
 			</div>
 		</div>
 		<script>
@@ -501,6 +502,8 @@ HCA8-8X8YT□, HCA8-16X16YT□*2 do not have the  (*)-marked mounting holes.
 				}
 				document.getElementById(infoTypeName).style.display = "block";
 				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
 			}
 		</script>
 
