@@ -11,8 +11,9 @@ TITLE!!!
 
 all
 hmi
-2543 ne 1343 
+2543 ne 1343  - user manuala vse pak e napisano 1343 i oshte dve drugi s 16--
 bez op
+2510 nothing to download
 
 
 problems - programming manual a8p - too big, slow download

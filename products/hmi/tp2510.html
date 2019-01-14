@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>HMI HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC Modules</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="tp2510.jpg" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">TP 2510 Series Human Machine Interface</h2>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					The TP2000 Series Human Machine Interface (HMI) provides various touch screens with multiple dimensions and colors. All brands of PLCs can be supported by TP2000 series HMI with internal protocol. It also offers fast and convenient control functions for industrial automation machines. In addition, our RTOS-based and user-friendly Soft Screen Editor and Programming Software configures the whole series. Users can quickly edit images and graphs and easily set suitable communication protocol. More applications can be created, edited, downloaded and uploaded.
+				</p>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+1.    10.1'', screen resolution:800*480; 24/ 16 bit color
+
+2.    With multi-actions switch, one key can control different actions
+
+3.    Various alarms function: alarm display, alarm record, floating alarm
+
+4.    128M Flash+128M DDR3
+
+5.    System monitoring, formula function, Clock function
+
+6.    Various languages available
+
+7.    Updated easily to new functions
+
+8.    Pre-set OS
+
+9.    Can connect flash disc
+
+10. USB function, Ethernet function
+
+ </pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+
+					<h4>Specification</h4>
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td> Parameter </td>
+							<td> TL2510 </td>
+							<td> TP2510 </td>
+							<td> TP2510-E </td>
+						</tr>
+						<tr>
+							<td> Color
+							display </td>
+							<td> 16-bit </td>
+							<td> 24-bit </td>
+							<td> 24-bit </td>
+						</tr>
+						<tr>
+							<td> Ethernet </td>
+							<td> None </td>
+							<td> None </td>
+							<td> Provided </td>
+						</tr>
+						<tr>
+							<td> SD
+							card </td>
+							<td> None </td>
+							<td> Provided </td>
+							<td> Provided </td>
+						</tr>
+						<tr>
+							<td> USB
+							HOST </td>
+							<td> Provided </td>
+							<td> Provided </td>
+							<td> Provided </td>
+						</tr>
+						<tr>
+							<td> USB
+							DEVICE </td>
+							<td> Provided </td>
+							<td> Provided </td>
+							<td> Provided </td>
+						</tr>
+						<tr>
+							<td> COM1/
+							COM3 </td>
+							<td> Provided </td>
+							<td> Provided </td>
+							<td> Provided </td>
+						</tr>
+						<tr>
+							<td> COM2/
+							COM4 </td>
+							<td> None </td>
+							<td> Provided </td>
+							<td> Provided </td>
+						</tr>
+						<tr>
+							<td> Isolated
+							power supply </td>
+							<td> None-isolated
+							power
+
+							Surge
+							protection </td>
+							<td> Isolated
+							power
+
+							Surge
+							protection </td>
+							<td> Isolated
+							power
+
+							Surge
+							protection </td>
+						</tr>
+					</table>
+					<br />
+					<h4>Hardware specification</h4>
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td> Display </td>
+							<td> 10.1’’ TFT LCD </td>
+						</tr>
+						<tr>
+							<td> Resolution </td>
+							<td> 800×480 </td>
+						</tr>
+						<tr>
+							<td> Color </td>
+							<td> 24/ 16 bit </td>
+						</tr>
+						<tr>
+							<td> Brightness </td>
+							<td> 300 cd/m<sup>2</sup></td>
+						</tr>
+						<tr>
+							<td> Backlight </td>
+							<td> LED </td>
+						</tr>
+						<tr>
+							<td> LCD lifetime </td>
+							<td> 50,000 hours </td>
+						</tr>
+						<tr>
+							<td> Touch Panel </td>
+							<td> 4 wire resistive
+							touch panel(Surface hardness 4H) </td>
+						</tr>
+						<tr>
+							<td> CPU </td>
+							<td> 600MHz ARM Cortex A8 </td>
+						</tr>
+						<tr>
+							<td> Memory </td>
+							<td> 128M Flash+128M DDR3 </td>
+						</tr>
+						<tr>
+							<td> RTC </td>
+							<td> Built in real-time
+							clock </td>
+						</tr>
+						<tr>
+							<td> Ethernet </td>
+							<td> 10M / 100M Ethernet
+							port </td>
+						</tr>
+						<tr>
+							<td> USB Port </td>
+							<td> 1 USB Device 2.0
+							port
+
+							1 USB Host 2.0 port </td>
+						</tr>
+						<tr>
+							<td> Program Download </td>
+							<td> USB
+							Host/ USB Slave/ SD card/ Ethernet are provided. </td>
+						</tr>
+						<tr>
+							<td> COM port </td>
+							<td> COM1/COM2:
+							RS232/ RS485/ RS422
+
+							COM3/COM4:
+							RS232 </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Electrical
+							specification </td>
+						</tr>
+						<tr>
+							<td> Power Consumption </td>
+							<td> 10W </td>
+						</tr>
+						<tr>
+							<td> Rated voltage </td>
+							<td> 24VDC, Input Range:
+							18V~28VDC </td>
+						</tr>
+						<tr>
+							<td> Power protection </td>
+							<td> Isolated power supply block, Protect from surging and thunderstrike </td>
+						</tr>
+						<tr>
+							<td> Allowable momentary
+							power-off </td>
+							<td> 5mS </td>
+						</tr>
+						<tr>
+							<td> CE </td>
+							<td> Complied with
+							EN61000-6-2:2005, EN61000-6-4:2007 </td>
+						</tr>
+						<tr>
+							<td> RoHS </td>
+							<td> Surge Immunity ±4KV, EFT: ±4KV, ESD: 4KV, Air: 8KV </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Environment Specification </td>
+						</tr>
+						<tr>
+							<td> Operation
+							Temperature </td>
+							<td> 0~50℃ </td>
+						</tr>
+						<tr>
+							<td> Storage Temperature </td>
+							<td> -20~60℃ </td>
+						</tr>
+						<tr>
+							<td> Operation Humidity </td>
+							<td> 10-90% RH (Without
+							condensation) </td>
+						</tr>
+						<tr>
+							<td> Vibration Resistance </td>
+							<td> 10~25 Hz(2G/30min in
+							X,Y,Z direction) </td>
+						</tr>
+						<tr>
+							<td> Cooling </td>
+							<td> Natural air cooling </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Others </td>
+						</tr>
+						<tr>
+							<td> Enclosure Rating </td>
+							<td> Front IP65(With NEMA
+							Panel), Back IP20 </td>
+						</tr>
+						<tr>
+							<td> Housing Material </td>
+							<td> PBT+PC </td>
+						</tr>
+						<tr>
+							<td> Cutout Dimension </td>
+							<td> 258.2×201.1(mm) </td>
+						</tr>
+						<tr>
+							<td> Dimension </td>
+							<td> 272×214×56(mm) </td>
+						</tr>
+						<tr>
+							<td> Weight </td>
+							<td> About 800g </td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+
+					<img class="w3-image w3-center" src="tp2510_dimensions_1.jpg" />
+					<img class="w3-image w3-center" src="tp2510_dimensions_2.jpg" />
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				
+
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
