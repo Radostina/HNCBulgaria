@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>HMI HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC Modules</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="tp930.png" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">TP 930 Series Human Machine Interface</h2>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					TP930 is a small Human-Machine Interface that is used with many kinds of PLC (or the other intelligent controllers with communication ports). With TP930, both the values of the PLC inner registers and the relays status of PLC can be monitored or changed through texts or LEDs. So the operation of the machines or the devices is more easy and convenient.
+				</p>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+
+				<p>
+					1. 32 Bit 72MHz ARM RISC CPU is used, ARM CORTEX-M3, fluent interface running.
+					<br />
+
+					2.Standard COM0: RS232/485/422, COM1: RS232 double-line communication, and it can work with different PLCs or controllers.
+					<br />
+
+					3.PLC communication supports automatic batch reading, with fast communication speed.
+					<br />
+
+					4. Configuration can be downloaded rapidly by USB connection, convenient for testing, upgrading and batch production.
+					<br />
+
+					5. Metal shrapnel film button, with long shelf-life nearly several million times.
+					<br />
+
+					6. Equipped with full standard real-time clock.
+					<br />
+
+					7. Wide working temperature, from -20~70C.
+					<br />
+
+					8. TP930E can use encoder to achieve value inputting and focus switches, with convenient operation.
+					<br />
+
+					9. Intuitive design- Seeing is getting.
+					<br />
+
+					10. Supporting offline simulation function, convenient procedure testing.
+					<br />
+
+					11. Supporting Windows and vector fonts, can input or indicate any language. Minimum 6*8 lattice can be supported for English input. Minimum 12*12 lattice can be supported for Chinese input. Maximum 5 lines of Chinese characters can be indicated. Maximum 8 lines of English characters can be indicated. Maximum 32*32 lattice can be supported.
+					<br />
+
+					12. PLC communication supports automatic batch reading, with high communication speed.
+					<br />
+
+					13. Supporting multi-language input and the input and indication of languages under any operation system.
+					<br />
+
+					14. Supporting 8-level user password levels and separate password level setting.
+					<br />
+
+					15. Powerful function keys, supporting values setting, increasing or decreasing, images skipping, entering or leaving etc setting function.
+					<br />
+
+					16. Adding ASII indicating components, supporting the indication of English and Number online, convenient for serial NO. and code indication etc.
+					<br />
+
+					17. Supporting events registering, alarm supporting level position and characters trigger, can customize alarm information nimbly.
+					<br />
+
+					18. TD930 Transfer tools can be supported to factories separately for batch downloading or customers upgrading. No need providing original configuration documents and prevent error modification and keep secrete.
+					<br />
+
+					19. Directly connection with Siemens S7-300 without adapters.
+
+				</p>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+
+					<h4>Electric specification</h4>
+					<p>
+						WARNING: The product may be damaged if the input voltage is out of range or the positive and negative poles are connected incorrectly.
+					</p>
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td > Input Voltage </td>
+							<td> DC12V-DC24V </td>
+						</tr>
+						<tr>
+							<td > Power Consumption </td>
+							<td> 〈2W (TYP1.5W) </td>
+						</tr>
+						<tr>
+							<td > Max. Power Cut Time </td>
+							<td> 〈20ms </td>
+						</tr>
+						<tr>
+							<td > Max. Voltage </td>
+							<td> AC1000V-10mA  1min.(between signal and GND) </td>
+						</tr>
+						<tr>
+							<td > Insulative Resistance </td>
+							<td> DC500V-about 10MΩ （between signal and GND） </td>
+						</tr>
+					</table>
+					<br />
+					<h4>Ambient Requirement</h4>
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td> Operation Temperature </td>
+							<td> 0~50℃ </td>
+						</tr>
+						<tr>
+							<td> Storage Temperature </td>
+							<td> –20~70℃ </td>
+						</tr>
+						<tr>
+							<td> Ambient Moisture </td>
+							<td> 20~90%（no condensation） </td>
+						</tr>
+						<tr>
+							<td> Vibration Resistance </td>
+							<td> 10~25Hz(Max. 2G for 30 min. in any of the X,Y,Z axis) </td>
+						</tr>
+						<tr>
+							<td rowspan="2"> Interference Resistance </td>
+							<td> Voltage Noise： 1500Vp-p </td>
+						</tr>
+						<tr>
+
+							<td> Pulse period: 1us, lasting for 1s </td>
+						</tr>
+						<tr>
+							<td> Atmosphere </td>
+							<td> No corrosive gas </td>
+						</tr>
+						<tr>
+							<td> Protection Structure </td>
+							<td> IP65 (Front board) </td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+					<h4>Dimension and Installation Guide</h4>
+					<p>
+
+						Dimension of TP930 (L*W*H): 185×96×36 (mm).
+						<br />
+						Dimension of the installation hole is 165x86 (mm)
+					</p>
+					<img class="w3-image w3-center" src="tp930_dimensions_1.jpg" />
+					<p>
+						Four ferric installation screws are included in the accessory package of TP930. There are four rectangular holes for fixing the TP930 on the two sides of the TP930, two on the top and two on the bottom. Fix the TP930 in the hole on the controlling cabinet with the screws. The procedure is listed as below:
+						<br />
+						1. Make a rectangular hole on the front panel of the controlling cabinet according to the dimension in the figure above.
+						<br />
+						2. Insert the displayer bottom into the hole of the cabinet.
+						<br />
+						3. Insert the screws into the fixing hole on the flanks of the TP930 and fasten them;
+						<br />
+						4. Connect the displayer and the COM port of PLC with a cable. The cable can be provided by the manufacturer of the TP930 or be made by the user according to the Connection Guide provided in this manual. Switch on the 24-V DC power supply to start the system.
+					</p>
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
