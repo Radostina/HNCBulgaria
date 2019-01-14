@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>HMI HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC Modules</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="tp2543.png" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">TP 2543 Series Human Machine Interface</h2>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					The TP2000 Series Human Machine Interface (HMI) provides various touch screens with multiple dimensions and colors. It also offers fast and convenient control functions for industrial automation machines. In addition, our RTOS-based and user-friendly Soft Screen Editor and Programming Software configures the whole series. Users can quickly edit images and graphs and easily set suitable communication protocol. More applications can be created, edited, downloaded and uploaded.
+				</p>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+
+
+1. Multi-actions switch, one key can control different actions
+
+2. Various alarms function: alarm display, alarm record, floating alarm
+
+3. System monitoring, formula function, Clock function
+
+4. 2 units connected
+
+5. Various languages available
+
+6. Updated easily to new functions
+
+7. Pre-set OS
+
+8. Can connect flash disc
+
+9. Ethernet function
+ </pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+
+					<h4>Hardware Specification 1</h4>
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td > Type </td>
+							<td> TP 2543 </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Hardware Performance </td>
+						</tr>
+						<tr>
+							<td> Display </td>
+							<td> 4.3’’ TFT LCD </td>
+						</tr>
+						<tr>
+							<td> Resolution </td>
+							<td> 480*272 </td>
+						</tr>
+						<tr>
+							<td> Colors </td>
+							<td> 65536 </td>
+						</tr>
+						<tr>
+							<td> Brightness </td>
+							<td> 300 CD/M </td>
+						</tr>
+						<tr>
+							<td> Backlight </td>
+							<td> LED </td>
+						</tr>
+						<tr>
+							<td> LCD life expectancy </td>
+							<td> 50,000 hours </td>
+						</tr>
+						<tr>
+							<td> Touch Panel </td>
+							<td> 4 wires resistive HMI(4H) </td>
+						</tr>
+						<tr>
+							<td> CPU </td>
+							<td> 32 Bit 400MHz RISC ARM926EJ </td>
+						</tr>
+						<tr>
+							<td> Memory </td>
+							<td> 128M Flash+64M DDR2 DRAM </td>
+						</tr>
+						<tr>
+							<td> RTC </td>
+							<td> Built in </td>
+						</tr>
+						<tr>
+							<td> Ethemet </td>
+							<td> N/A </td>
+						</tr>
+						<tr>
+							<td> USB Port </td>
+							<td> USB Host 1.1: Supporting USB storage; USB Device 2.0: Supporting USB program download </td>
+						</tr>
+						<tr>
+							<td> Program Download </td>
+							<td> USB Host/ USB Device </td>
+						</tr>
+						<tr>
+							<td> COM Port </td>
+							<td> COM0: RS232/ RS422/ RS485
+							<br />
+							COM2: RS485 </td>
+						</tr>
+					</table>
+
+					<h4>Hardware Specification 2</h4>
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td> Type </td>
+							<td> TP 2543 </td>
+						</tr>
+						<tr>
+							<td  colspan="2"> Electrical Specification </td>
+						</tr>
+						<tr>
+							<td> Power Consumption </td>
+							<td > 4W </td>
+						</tr>
+						<tr>
+							<td> Input Power </td>
+							<td > DC 24V, Input Range: DC 18V~32V </td>
+						</tr>
+						<tr>
+							<td> Power Protection </td>
+							<td > Protect from surging and thunderstrike </td>
+						</tr>
+						<tr>
+							<td> Allowable momentary power-off </td>
+							<td > 5mS </td>
+						</tr>
+						<tr>
+							<td > CE and  ROHS </td>
+							<td > Complied with EN61000-6-2:2005, EN61000-6-4:2007, ROHS; Surge Immunity ±4KV,
+							<br />
+							EFT: ±4KV, ESD: 4K, Air: 8KV </td>
+						</tr>
+						<tr>
+							<td  colspan="2"> Environment Specification </td>
+						</tr>
+						<tr>
+							<td> Operation Temperature </td>
+							<td > -20~70℃/0~50℃ </td>
+						</tr>
+						<tr>
+							<td> Storage Temperature </td>
+							<td > -30~80℃ </td>
+						</tr>
+						<tr>
+							<td> Operation Humidity </td>
+							<td > 10-90% RH (Without condensation) </td>
+						</tr>
+						<tr>
+							<td> Vibration Endurance </td>
+							<td > 10~25 Hz(2G/30min in X,Y,Z direction) </td>
+						</tr>
+						<tr>
+							<td> Cooling method </td>
+							<td > Natural air cooling </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Others </td>
+						</tr>
+						<tr>
+							<td> Degree of Protection </td>
+							<td > Front IP65(With NEMA Panel), Back IP20 </td>
+						</tr>
+						<tr>
+							<td > Shell Material </td>
+							<td > TP2543: Front cover made by aluminum and the surface with hard oxide treatment;
+							<br />
+							Back cover made by steel and the surface with baking finish treatment
+							<br />
+							TP2543: ABS+PC </td>
+						</tr>
+						<tr>
+							<td> Panel Cutout (W*H) </td>
+							<td > 120mm*93mm </td>
+						</tr>
+						<tr>
+							<td> Dimension </td>
+							<td > 128mm*102mm*32mm </td>
+						</tr>
+						<tr>
+							<td> Weight </td>
+							<td > About 400g/500g </td>
+						</tr>
+					</table>
+
+				</div>
+
+		
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+
+					<img class="w3-image w3-center" src="tp2543_dimensions_1.png" />
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<a href="tp2543_user_manual.pdf">TP2543 manual</a>
+				<br />
+				<a href="tp2543_tp1610_tp1670_user_manual.pdf">TP2543, TP1610, TP1670 manual</a>
+			
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
