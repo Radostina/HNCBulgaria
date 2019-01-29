@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>CNC Controller HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../cnccontroller.html" class="w3-bar-item w3-button">CNC Controller</a>
+			<a href="../servodrive.html" class="w3-bar-item w3-button">Servo Drive</a>
+			<a href="../frqinv.html" class="w3-bar-item w3-button">Frequency Inverter</a>
+			<a href="../spmotor.html" class="w3-bar-item w3-button">Spindle Motor</a>
+			<a href="../acservomot.html" class="w3-bar-item w3-button">AC Servo Motor</a>
+			<a href="../acc.html" class="w3-bar-item w3-button">Accessories</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="602t.png" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">602T CNC controller for Turning Machine</h2>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					HNC602T is our latest developed, affordable system for cnc lathe &amp; grinding machines. The control circuit adopted with high speed ARM processor ( new industrial grade), large scale filed programmable gate array (FPGA )technology, multi-layer PCB printed circuit board. The system itself has equipped with high integrated chips and surface mounting components, which brings a more compact and reasonable structure,a better guarantee of the system reliability and stability.
+					<br />
+					<br />
+					Key features: high speed real-time control(the max fast moving speed can reach to 30m/min, the max feed interpolation speed can up to 15m/min);high precision;using 800*600 lattice TFT LCD brightness adaptive technology ensured a longer service time, eliminated the disadvantage of display brightness varies with ambient temperature.English display menu,operations are very straightforward and convenient.
+					<br />
+					<br />
+					This is a two-coordinate linkage, open loop cnc system, representing very common application for cnc lathe.It has powerful functions, rich commands, being able to control the AC servo system directly.The programming codes are in accordance with ISO international standard. Choosing the relevant series of servo system from HNC Electric will guarantee you a better cost effective solution.
+				</p>
+
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+- Coordinate axes: 2 
+- Adopting high-speed ARM / DSP / FPGA / hardware interpolation technology
+- Max speed: 60m/min, Feed speed: 0.01…30m/min
+- USB interface
+- RS232 interface
+- Memory for part program: 32M,  No limit of the program number
+- Program pre-load for small line segment machining, ensure the continuous machining
+- Max Thread pitch: 1000mm
+- 54 series of G code, satisfy all kinds of machining
+- Automated Tool compensation, C tool compensation function
+- Automated chamfering and rounding function
+- Two-channel anolog output, allow to control two spindle 
+ </pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+					<p>
+						<b>System constructions</b>
+						<br />
+						32-bit high performance, low power consumption industrial grade ARM microprocessor.
+						<br />
+						64MB memory.
+						<br />
+						32Mb user store room.
+						<br />
+						8 inch real color LCD display with 640x480 resolution
+						<br />
+						High anti-jamming switch power.
+						<br />
+						USB port
+						<br />
+						RS232 port
+						<br />
+						Spindle servo speed control/spindle frequency conversion speed control.
+						<br />
+						Manual pulse generator.
+
+						<br />
+						<br />
+						<b>System technical parameter</b>
+						<br />
+						Controllable axes：X、Z
+						<br />
+						linkage axes：Arc 2 axes, liner 2 axes.
+						<br />
+						Pulse equivalent：X、Z: 0.001mm.
+						<br />
+						Max speed：X、Z:60000mm/min.
+						<br />
+						Cutting speed：1-10000mm/min.
+						<br />
+						Min input unit：0.001mm.
+						<br />
+						program size range：± 99999.999.
+						<br />
+						99 tools management
+						<br />
+						Controllable liner vertical type or revolving disc type tool changer
+						<br />
+						Program code：ISO-840 international standard
+						<br />
+						Program coordinate system definition：ISO-841
+						<br />
+						Chassis protection complies with regulation of IP43
+						<br />
+						<br />
+						<b>System function
+						<br />
+						Auto-diagnosis function</b>
+
+						<br />
+						All related diagnosis of CPU, memory, LCD, I/O interface, parameter status, coordinates, machining program etc. shall execute when the system starts or resets. In operation, it makes real time diagnosis of power, spindle, limit and all I/O interface.
+						<br />
+						<br />
+						<b> Compensation function</b>
+						<br />
+						Automatic backlash compensation
+						<br />
+						Tool radius automatic compensation
+						<br />
+						Tool radius automatic offset and sharp angle transition
+						<br />
+						Leading screw pitch error automatic compensation
+
+						<br />
+						<br />
+						<b>Abundant instruction system</b>
+
+						<br />
+						Scaling up/down instruction
+						<br />
+						Mirror machining instruction.
+						<br />
+						Multiple tool offset instruction.
+						<br />
+						Program cycle, jump, call and different program ending
+						<br />
+						multiple positioning instruction：starting point，setting fixed point, etc.
+						<br />
+						Linear, circular， spiral line interpolation instruction.
+						<br />
+						Program management instructions: program cycle, call, transfer and different program ending method, etc.
+						<br />
+						6 work-pieces coordinate system
+
+						<br />
+						<br />
+						<b> Chinese/English menu, full screen edition</b>
+
+						<br />
+						Easy operation, convenient viewing
+
+						<br />
+						<br />
+						<b>Abundant debugging functions</b>
+
+						<br />
+						it can point out clearly what errors of operation are and guide to correct them.
+
+						<br />
+						<br />
+						<b> Program changing between CNC system and IBM/PC series compatible computer</b>
+
+						It can conduct CAD/CAM/CAPP auxiliary programming by using PC series compatible computer's abundant software resources，then transfer the CNC program into the system to machining through（USB movable U disc copy port、RS232 port）.Likewise it also can transfer the program from system to PC through communication port.
+					</p>
+
+				</div>
+
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container">
+
+					<img class="w3-image w3-center" src="602t_dimensions_1.jpg" />
+					<img class="w3-image w3-center" src="602t_dimensions_2.jpg" />
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<a href="602t_brochure.jpg">602T Brochure</a>
+				<br />
+				<a href="602t_user_manual.pdf"> 606T User Manual</a>
+
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
