@@ -24,3 +24,4 @@ downloads hca8c
 hca8c - user manual leads to the overview page, not a documentation
 
 hover text na link-ovete
+rename cncController with camell case
