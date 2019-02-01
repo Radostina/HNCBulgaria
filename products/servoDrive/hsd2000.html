@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Servo Drive HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../cncController.html" class="w3-bar-item w3-button">CNC Controller</a>
+			<a href="../servoDrive.html" class="w3-bar-item w3-button">Servo Drive</a>
+			<a href="../frqinv.html" class="w3-bar-item w3-button">Frequency Inverter</a>
+			<a href="../spmotor.html" class="w3-bar-item w3-button">Spindle Motor</a>
+			<a href="../acservomot.html" class="w3-bar-item w3-button">AC Servo Motor</a>
+			<a href="../acc.html" class="w3-bar-item w3-button">Accessories</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="hsd2000.png" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">HSD2000 AC380V Servo Drive</h2>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					HSD2000 has perfect performance thanks to 64bit DSP, high performance FPGA, and the newest motor control algorithm. It could drive synchronous servo motor and asynchronous servo motor, as well as induction motors. Available for pulse / analog / field bus / digital input signal / keyboard control, and supports all types of encoders including incremental, SinCos, absolute, The power range is from 2.2KW up to 132KW.
+				</p>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+1.  Employed DSP+FPGA, reliability and performance is improved markedly High performance/ 
+High flexibility / Strong over-load ability   
+				</pre>
+				<img class="w3-image w3-center" src="hsd2000_features1.jpg" />
+				<pre>
+2. Perfectly work as AC synchronous servo drive and asynchronous servo drive, can drive: 
+synchronous servo motor (position control), asynchronous servo motor and induction motors. 
+				</pre>
+				<img class="w3-image w3-center" src="hsd2000_features2.jpg" />
+				<pre>
+3. Speed mode/ torque mode/ servo mode/spindle drive mode optional 
+   A. Speed mode 
+Open loop：For most of applications, like Cranes, CNC spindle  
+Close loop： For the applications require higher speed accuracy, e.g elevator, harbor cranes:  
+   B.  Torque mode： 
+Open loop：General winding applications, e.g leather winding, film winding 
+Close loop： Winding applications requires high tension accuracy, with winding diameter calculation,  e.g steel panel winding.  
+  C.  Servo mode： 
+Pulse tracking： Usually co-work with CNC controller or other upper computer 
+Positioning： CNC spindle positioning, internal digital positioning. 
+  D.  Spindle mode. 
+				</pre>
+				<img class="w3-image w3-center" src="hsd2000_features3.jpg" />
+				<pre>
+4. Auto-turning of synchronous servo motor pole angle, no need zeroing, match all brands of servo motor easily  
+5. Easy operation: pulse control / filed bus control / IO control / analog control  
+6. Under servo mode, positioning accuracy is less than ±1 pulse  
+7. Close-loop vector control, speed ratio is up to 1:5000,can achieve high speed accuracy  
+8. Time-sharing control of 2 motors with different parameters 
+</pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td colspan="2"> Item </td>
+							<td> Item description </td>
+						</tr>
+
+						<tr>
+							<td> Input </td>
+							<td> Rated voltage; frequency </td>
+							<td> Three-phase, 380V～480V; 50Hz/60Hz;  voltage unbalance rate: ＜3％; frequency: ±5％ </td>
+						</tr>
+						<tr>
+							<td rowspan="3"> Output </td>
+							<td> Rated frequency </td>
+							<td> 380V, 400V, 415V, 440V, 460V, 480V </td>
+						</tr>
+						<tr>
+							<td> Frequency </td>
+							<td> 0Hz～1000Hz </td>
+						</tr>
+						<tr>
+							<td> Overload </td>
+							<td> G: 150％ rated current in 2 minutes，200％ rated current 0.5 seconds </td>
+						</tr>
+						<tr>
+							<td rowspan="18"> Main control performance </td>
+							<td> Control </td>
+							<td> magnetic flux vector control without PG, magnetic flux vector control with PG, servo control, V/F control, V/F control wit PG </td>
+						</tr>
+						<tr>
+							<td> Modulation method </td>
+							<td> Space vector PWM modulation method </td>
+						</tr>
+						<tr>
+							<td> Speed range </td>
+							<td> 1: 200 (magnetic flux vector control without PG), 1: 5000 (magnetic flux vector control with PG, servo control) </td>
+						</tr>
+						<tr>
+							<td> Start torque </td>
+							<td> 0Hz of 150％ rated torque (magnetic flux vector control without PG), 0Hz of 200％ rated torque  (magnetic flux vector control with PG) </td>
+						</tr>
+						<tr>
+							<td> Operational rotational speed steady-status accuracy </td>
+							<td> ≤±0.2％ rated synchronous rotational speed (magnetic flux vector control without PG),
+
+							≤±0.02％ rated synchronous rotational speed (magnetic flux vector control with PG, servo control) </td>
+						</tr>
+						<tr>
+							<td> Speed fluctuations </td>
+							<td> ≤±0.3％ rated synchronous rotational speed (magnetic flux vector control without PG)
+
+							≤±0.1％ rated synchronous rotational speed (magnetic flux vector control with PG、servo control) </td>
+						</tr>
+						<tr>
+							<td> Positioning accuracy </td>
+							<td> ±1 pulse </td>
+						</tr>
+						<tr>
+							<td> Torque response </td>
+							<td> ≤10ms (magnetic flux vector control with PG, servo control);
+
+							≤20ms (magnetic flux vector control without PG) </td>
+						</tr>
+						<tr>
+							<td> Torque control </td>
+							<td> Support magnetic flux vector control without PG, magnetic flux vector control with PG, servo control </td>
+						</tr>
+						<tr>
+							<td> Frequency accuracy </td>
+							<td> Digital setting: maximum frequency×±0.01％; analog setting: maximum frequency×±0.2％ </td>
+						</tr>
+						<tr>
+							<td> Frequency resolution </td>
+							<td> digital setting: 0.01Hz; analog setting: maximum frequency×0.05％ </td>
+						</tr>
+						<tr>
+							<td> Torque lifting </td>
+							<td> Automatic torque lifting, manual torque lifting 0.1％～30.0％ </td>
+						</tr>
+						<tr>
+							<td> V/F curve </td>
+							<td> Four types: one user setting V/F curve and 3 reduced torque curves (2.0 times the power, 1.7 times the power, 1.2 times the power) </td>
+						</tr>
+						<tr>
+							<td> Acceleration and deceleration curves </td>
+							<td> Two types: straight acceleration and deceleration, S curve acceleration and deceleration; time of the four types: Time units (minutes / seconds) optional, maximum to 60 hours </td>
+						</tr>
+						<tr>
+							<td> DC braking </td>
+							<td> Halt DC brake starting frequency: 0.00 Hz～60.00Hz; braking time: 0.0s～30.0s; brake current: 0.0％～100.0％ </td>
+						</tr>
+						<tr>
+							<td> Automatic Voltage Regulation (AVR) </td>
+							<td> When grid voltage changes, the output voltage keeps constant automatically. </td>
+						</tr>
+						<tr>
+							<td> Automatic current limiting </td>
+							<td> Limit current in operation automatically to prevent over current failure tripping frequently. </td>
+						</tr>
+						<tr>
+							<td> Automatic carrier wave adjustment </td>
+							<td> According to loading characteristics, the carrier wave frequency may be adjusted automatically; optional </td>
+						</tr>
+						<tr>
+							<td rowspan="5"> Customization capabilities </td>
+							<td> Textile swing frequency </td>
+							<td> Textile swing frequency control, achieve adjustable swing frequency function of center frequency </td>
+						</tr>
+						<tr>
+							<td> Binding function </td>
+							<td> Free banding and synchronous switching may be implemented between command channel and given frequency channel. </td>
+						</tr>
+						<tr>
+							<td> Inching </td>
+							<td> Inching frequency range: 0.00Hz～50.00Hz; inching acceleration and deceleration time 0.1s～60.0s may best; inching interval may be se </td>
+						</tr>
+						<tr>
+							<td> Multi-speed operation </td>
+							<td> Multi-speed operation will be achieved by inside PLC or control terminals. </td>
+						</tr>
+						<tr>
+							<td> built-in process closed loop control </td>
+							<td> Form closed loop control system </td>
+						</tr>
+						<tr>
+							<td rowspan="5"> Operation function </td>
+							<td> Operation command channel </td>
+							<td> Given operation panel, control terminal and may be switched by varity of methods. </td>
+						</tr>
+						<tr>
+							<td> Given frequency channel </td>
+							<td> Given digital, analog voltage, analog current, pulse, serial port may be switched by variety of methods. </td>
+						</tr>
+						<tr>
+							<td> Given auxiliary frequency </td>
+							<td> Achieve flexible auxilary frequency fine tuning, frequency synthesis </td>
+						</tr>
+						<tr>
+							<td> Pulse output terminal </td>
+							<td> 0～100kHz pulse square wave signal output, achieve output of setting frequency, output frequency. </td>
+						</tr>
+						<tr>
+							<td> Analog output terminal </td>
+							<td> 2analog signals output, 0/4～20mA or 0/2～10V may be selected separately. Achieve output of setting frequency, output frequency. </td>
+						</tr>
+						<tr>
+							<td rowspan="4"> Operation panel </td>
+							<td> LED display </td>
+							<td> Display 20 types of parameters such as setting frequency, output frequency, output voltage and output current . </td>
+						</tr>
+						<tr>
+							<td> LCD display </td>
+							<td> Optional, Chinese / English prompts content </td>
+						</tr>
+						<tr>
+							<td> Parameter copy </td>
+							<td> Operation panel may be used to achieve rapid copy of parameters </td>
+						</tr>
+						<tr>
+							<td> Key lock and function selection </td>
+							<td> Achieve parts or all locking functions pf keys. Define function range of part key to prevent error operation. </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Protective function </td>
+							<td> lack-phase protection (optional) , over current protection, overvoltage protection, lack-voltage protection, over-thermal protection, overload protection, off-load protection </td>
+						</tr>
+						<tr>
+							<td rowspan="3"> Environment </td>
+							<td> Condition </td>
+							<td> Indoor, without sunlight, dust, corrosive gases, flammable gas, mist, water vapor, dripping or salt. </td>
+						</tr>
+						<tr>
+							<td> Altitude height </td>
+							<td> Derating above 1000 meters, derating 10％ in each 1000 meters lifting </td>
+						</tr>
+						<tr>
+							<td> Ambient temperature </td>
+							<td> －10℃～＋40℃ (ambient temperature between 40℃～50℃, derating ) </td>
+						</tr>
+						<tr>
+							<td rowspan="3"> Environment </td>
+							<td> Humidity </td>
+							<td> 5％～95％RH, without condensing </td>
+						</tr>
+						<tr>
+							<td> Vibration </td>
+							<td> Less than 5.9m/s2 (0.6g) </td>
+						</tr>
+						<tr>
+							<td> Storage temperature </td>
+							<td> －40℃～＋70℃ </td>
+						</tr>
+						<tr>
+							<td rowspan="2"> Structure </td>
+							<td> Protective degree </td>
+							<td> IP20 </td>
+						</tr>
+						<tr>
+							<td> Cooling method </td>
+							<td> Air-cooled with fan control </td>
+						</tr>
+
+					</table>
+					<br />
+					<br />
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td>Servo Drive Model </td>
+							<td>Rated Capacity (kVA) </td>
+							<td>Rated Input Current (A) </td>
+							<td>Rated Output Current  (A) </td>
+							<td> Adaptive Motor  (kW) </td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-1R5</td>
+							<td>3</td>
+							<td>5</td>
+							<td>3.7</td>
+							<td>1.5</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-2R2</td>
+							<td>4</td>
+							<td>5.8</td>
+							<td>5</td>
+							<td>2.2</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-004</td>
+							<td>6.3</td>
+							<td>10</td>
+							<td>9</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-5R5</td>
+							<td>8.5</td>
+							<td>15.5</td>
+							<td>13</td>
+							<td>5.5</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-7R5</td>
+							<td>11</td>
+							<td>20.5</td>
+							<td>17</td>
+							<td>7.5</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-011</td>
+							<td>17</td>
+							<td>26</td>
+							<td>25</td>
+							<td>11</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-015</td>
+							<td>21</td>
+							<td>35</td>
+							<td>32</td>
+							<td>15</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-018</td>
+							<td>24</td>
+							<td>38.5</td>
+							<td>37</td>
+							<td>18.5</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-022</td>
+							<td>30</td>
+							<td>46.5</td>
+							<td>45</td>
+							<td>22</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-030</td>
+							<td>40</td>
+							<td>62</td>
+							<td>60</td>
+							<td>30</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-037</td>
+							<td>50</td>
+							<td>76</td>
+							<td>75</td>
+							<td>37</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-045</td>
+							<td>60</td>
+							<td>92</td>
+							<td>90</td>
+							<td>45</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-055</td>
+							<td>72</td>
+							<td>113</td>
+							<td>110</td>
+							<td>55</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-075</td>
+							<td>100</td>
+							<td>157</td>
+							<td>152</td>
+							<td>75</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-090</td>
+							<td>116</td>
+							<td>180</td>
+							<td>176</td>
+							<td>90</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-110</td>
+							<td>138</td>
+							<td>214</td>
+							<td>210</td>
+							<td>110</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-132</td>
+							<td>167</td>
+							<td>256</td>
+							<td>253</td>
+							<td>132</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-160</td>
+							<td>200</td>
+							<td>307</td>
+							<td>304</td>
+							<td>160</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-185</td>
+							<td>230</td>
+							<td>355</td>
+							<td>350</td>
+							<td>185</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-200</td>
+							<td>250</td>
+							<td>385</td>
+							<td>380</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-220</td>
+							<td>280</td>
+							<td>430</td>
+							<td>426</td>
+							<td>220</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-250</td>
+							<td>309</td>
+							<td>488</td>
+							<td>470</td>
+							<td>250</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-280</td>
+							<td>342</td>
+							<td>525</td>
+							<td>520</td>
+							<td>280</td>
+						</tr>
+						<tr>
+							<td ,width="131">HSD2000-4T-315</td>
+							<td>388</td>
+							<td>605</td>
+							<td>590</td>
+							<td>315</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-355</td>
+							<td>427</td>
+							<td>667</td>
+							<td>650</td>
+							<td>355</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-400</td>
+							<td>454</td>
+							<td>701</td>
+							<td>690</td>
+							<td>400</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-450</td>
+							<td ,width="125">510</td>
+							<td>789</td>
+							<td>775</td>
+							<td>450</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-500</td>
+							<td>566</td>
+							<td>877</td>
+							<td>860</td>
+							<td>500</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-560</td>
+							<td>625</td>
+							<td>982</td>
+							<td>950</td>
+							<td>560</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-630</td>
+							<td>724</td>
+							<td>1184</td>
+							<td>1100</td>
+							<td>630</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-800</td>
+							<td>921</td>
+							<td>1500</td>
+							<td>1400</td>
+							<td>800</td>
+						</tr>
+
+					</table>
+
+				</div>
+
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container" align="center">
+					<img class="w3-image w3-center" src="hsd2000_dimensions_1.jpg" />
+					<img class="w3-image w3-center" src="hsd2000_dimensions_2.jpg" />
+					<img class="w3-image w3-center" src="hsd2000_dimensions_3.jpg" />
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td>Servo drive model&nbsp;</td>
+							<td>D</td>
+							<td>W1</td>
+							<td>H1</td>
+							<td>H</td>
+							<td>W</td>
+							<td>Outline Drawing No.</td>
+							<td>Installation hole diameter&nbsp;</td>
+							<td>Gross weight (kg)&nbsp;</td>
+							<td>Installation method</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-1R5</td>
+							<td rowspan="3">175</td>
+							<td rowspan="3">127</td>
+							<td rowspan="3">200</td>
+							<td rowspan="3">215</td>
+							<td rowspan="3">140</td>
+							<td rowspan="3">Figure2-3</td>
+							<td rowspan="3">5</td>
+							<td rowspan="3">3.5</td>
+							<td rowspan="3">Hanging&nbsp;</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-2R2</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-004</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-5R5</td>
+							<td rowspan="2">181</td>
+							<td rowspan="2">146</td>
+							<td rowspan="2">251</td>
+							<td rowspan="2">262</td>
+							<td rowspan="2">157</td>
+							<td rowspan="2">Figure2-3</td>
+							<td rowspan="2">5.5</td>
+							<td rowspan="2">5</td>
+							<td rowspan="2">Hanging&nbsp;</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-7R5</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-011</td>
+							<td rowspan="2">181</td>
+							<td rowspan="2">180</td>
+							<td rowspan="2">288</td>
+							<td rowspan="2">305</td>
+							<td rowspan="2">198</td>
+							<td rowspan="2">Figure2-4</td>
+							<td rowspan="2">5.5</td>
+							<td rowspan="2">8</td>
+							<td rowspan="2">Hanging&nbsp;</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-015</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-018</td>
+							<td rowspan="3">220</td>
+							<td rowspan="3">230</td>
+							<td rowspan="3">424.5</td>
+							<td rowspan="3">438</td>
+							<td rowspan="3">276</td>
+							<td rowspan="3">Figure2-5</td>
+							<td rowspan="3">7</td>
+							<td rowspan="3">18</td>
+							<td rowspan="3">Hanging&nbsp;</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-022</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-030</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-037</td>
+							<td rowspan="3">231.5</td>
+							<td rowspan="3">320</td>
+							<td rowspan="3">571</td>
+							<td rowspan="3">589</td>
+							<td rowspan="3">395</td>
+							<td rowspan="3">Figure2-5</td>
+							<td rowspan="3">10</td>
+							<td rowspan="3">45</td>
+							<td rowspan="3">Hanging&nbsp;</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-045</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-055</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-075</td>
+							<td rowspan="3">298</td>
+							<td rowspan="3">320</td>
+							<td rowspan="3">733</td>
+							<td rowspan="3">759</td>
+							<td rowspan="3">489</td>
+							<td rowspan="3">Figure2-6</td>
+							<td rowspan="3">12</td>
+							<td rowspan="3">75</td>
+							<td rowspan="3">Hanging&nbsp;</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-090</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-110</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-132</td>
+							<td rowspan="4">370</td>
+							<td rowspan="2">320</td>
+							<td rowspan="2">898</td>
+							<td rowspan="2">927</td>
+							<td rowspan="2">539</td>
+							<td rowspan="2">Figure2-6</td>
+							<td rowspan="4">12</td>
+							<td rowspan="2">125</td>
+							<td rowspan="4">Hanging and cabinet</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-160</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-185</td>
+							<td rowspan="2">507</td>
+							<td rowspan="2">898</td>
+							<td rowspan="2">1377</td>
+							<td rowspan="2">539</td>
+							<td rowspan="2">Figure2-6</td>
+							<td rowspan="2">142</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-200</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-220</td>
+							<td rowspan="3">373</td>
+							<td>280</td>
+							<td>1022</td>
+							<td>1054</td>
+							<td>704</td>
+							<td>Figure2-6</td>
+							<td rowspan="3">12</td>
+							<td>160</td>
+							<td rowspan="3">Hanging and cabinet</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-250</td>
+							<td rowspan="2">672</td>
+							<td rowspan="2">1022</td>
+							<td rowspan="2">1500</td>
+							<td rowspan="2">704</td>
+							<td rowspan="2">Figure2-6</td>
+							<td rowspan="2">181</td>
+						</tr>
+						<tr>
+							<td>HSD2000-4T-280</td>
+						</tr>
+
+					</table>
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<a href="hsd2000_catalogue.pdf"> HSD2000 Catalogue</a>
+				<br />
+				<a href="hsd2000_user_manual.pdf"> HSD2000 AC380V Servo Drive User Manual</a>
+				<br />
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>

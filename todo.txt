@@ -25,3 +25,5 @@ hca8c - user manual leads to the overview page, not a documentation
 
 hover text na link-ovete
 return focus of the mouse on the page after changing menu items(Overview, Features, param etc.)
+overview na hsv180as - govori za hsv180ad
+da opravq tablicite 
