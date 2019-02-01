@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Servo Drive HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../cncController.html" class="w3-bar-item w3-button">CNC Controller</a>
+			<a href="../servoDrive.html" class="w3-bar-item w3-button">Servo Drive</a>
+			<a href="../frequencyInverter.html" class="w3-bar-item w3-button">Frequency Inverter</a>
+			<a href="../spmotor.html" class="w3-bar-item w3-button">Spindle Motor</a>
+			<a href="../acservomot.html" class="w3-bar-item w3-button">AC Servo Motor</a>
+			<a href="../acc.html" class="w3-bar-item w3-button">Accessories</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="hv390.jpg" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">HV390 Series Mini Design Frequency Inverter</h2>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<p>
+					HV390 is the newest AC inverter with compact design from HNC Electric, Thanks to advanced current vector control algorithm and newest hardware, HV390 has high stability and perfect motor control performance. Based on listening and understanding of customers’ requirement, HV390 supports full range of input voltage ( AC 120V / 220V / 380V / 460V and etc.) , complete functions for different countries and applications.
+					<br />
+					*Mini design housing suitable for micro automation such as packaging machine, labeling machine, conveyor belt etc.
+					<br />
+					*Installation back mounting system can insert the inverter directly into the rack
+					<br />
+					*Programmable DI/DO/AI/AO as well as RS485 Modbus RTU make easy communication with other devices
+					<br />
+					*Integrated PID function support most of water supply applications
+					<br />
+					*Integrated multi-speed function support most of texitile application
+				</p>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+1. Advanced motor control technology support both Open loop vector control(SVC) and V/F control.
+
+2. Different input voltage( 220V single phase/220V 3 phase/380V 3 phase/460V 3 phase).
+
+3. High starting torque characteristics and precise speed control.
+
+4. Suitable for all regions which have different grid and voltage.
+
+5. All product type integrate force-cooling fan.
+
+6. Built in simple PLC, PID , programmable I/O terminals, RS485 interface, analog input / output control function and other rich control functions
+
+7. Mini design housing suitable for micro automation such as packaging machine, labeling machine, conveyor belt etc
+				</pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+					<h3>Model Definition:</h3>
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td rowspan="2">Inverter model</td>
+							<td colspan="2">Motor adapter</td>
+							<td rowspan="2">Rated input A</td>
+							<td rowspan="2">Rated output A</td>
+						</tr>
+						<tr>
+							<td>kW</td>
+							<td>HP</td>
+						</tr>
+						<tr>
+							<td colspan="5"> 1PH single phase input：AC 220V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> HV390-R40G1-2 </td>
+							<td>0.4</td>
+							<td> 0.5 </td>
+							<td> 5.9 </td>
+							<td>2.5</td>
+						</tr>
+						<tr>
+							<td> HV390-R75G1-2 </td>
+							<td>0.75</td>
+							<td> 1 </td>
+							<td> 8.3 </td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td> HV390-1R5G1-2 </td>
+							<td>1.5</td>
+							<td> 2 </td>
+							<td> 14.1 </td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td colspan="5"> 3PH 3-phase input：AC 220V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> HV390-R40G2 </td>
+							<td>0.4</td>
+							<td> 0.5 </td>
+							<td> 4.1 </td>
+							<td>2.5</td>
+						</tr>
+						<tr>
+							<td> HV390-R75G2 </td>
+							<td>0.75</td>
+							<td> 1 </td>
+							<td> 5.3 </td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td> HV390-1R5G2 </td>
+							<td>1.5</td>
+							<td> 2 </td>
+							<td> 8.0 </td>
+							<td>7</td>
+						</tr>
+						<tr>
+							<td colspan="5"> 3PH 3-phase input：AC 380V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> HV390-R40G3 </td>
+							<td>0.4</td>
+							<td> 0.5 </td>
+							<td> - </td>
+							<td> - </td>
+						</tr>
+						<tr>
+							<td> HV390-R75G3 </td>
+							<td>0.75</td>
+							<td> 1 </td>
+							<td> 4.3 </td>
+							<td>2.5</td>
+						</tr>
+						<tr>
+							<td> HV390-1R5G3 </td>
+							<td>1.5</td>
+							<td> 2 </td>
+							<td> 5.2 </td>
+							<td>3.7</td>
+						</tr>
+						<tr>
+							<td> HV390-2R2G3 </td>
+							<td>2.2</td>
+							<td> 3 </td>
+							<td> 6.0 </td>
+							<td> 5 </td>
+						</tr>
+						<tr>
+							<td> HV390-004G3 </td>
+							<td> 4.0 </td>
+							<td> 5 </td>
+							<td> 10.5 </td>
+							<td>8.5</td>
+						</tr>
+						<tr>
+							<td> HV390-5R5G3 </td>
+							<td>5.5</td>
+							<td> 7.5 </td>
+							<td> 15.5 </td>
+							<td>13</td>
+						</tr>
+						<tr>
+							<td colspan="5"> 3PH 3-phase input：AC 460V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> HV390-R40G4 </td>
+							<td>0.4</td>
+							<td> 0.5 </td>
+							<td> - </td>
+							<td>-</td>
+						</tr>
+						<tr>
+							<td> HV390-R75G4 </td>
+							<td>0.75</td>
+							<td> 1 </td>
+							<td> 4.1 </td>
+							<td>2.5</td>
+						</tr>
+						<tr>
+							<td> HV390-1R5G4 </td>
+							<td>1.5</td>
+							<td> 2 </td>
+							<td> 4.9 </td>
+							<td>3.7</td>
+						</tr>
+						<tr>
+							<td> HV590-2R2G4 </td>
+							<td>2.2</td>
+							<td> 3 </td>
+							<td> 5.7 </td>
+							<td>5</td>
+						</tr>
+						<tr>
+							<td> HV390-004G4 </td>
+							<td>4.0</td>
+							<td> 5 </td>
+							<td> 9.4 </td>
+							<td>8</td>
+						</tr>
+						<tr>
+							<td> HV390-5R5G4 </td>
+							<td>5.5</td>
+							<td> 7.5 </td>
+							<td> 12.5 </td>
+							<td>11</td>
+						</tr>
+
+					</table>
+					<h3> Standard Specification: </h3>
+
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td colspan="2"> Item </td>
+							<td> Specifications </td>
+						</tr>
+						<tr>
+							<td rowspan="2"> Power </td>
+							<td> Voltage frequency </td>
+							<td> Single-phase 220V 50/60Hz,  three-phase 380V 50/60Hz </td>
+						</tr>
+						<tr>
+							<td> Allowable
+							fluctuation </td>
+							<td> voltage：±15%，frequency：±5% </td>
+						</tr>
+						<tr>
+							<td rowspan="16"> Control
+							performance </td>
+							<td> Frequency
+							range </td>
+							<td> 0-600Hz </td>
+						</tr>
+						<tr>
+							<td> Output frequency
+							precision </td>
+							<td> The maximum
+							frequency value ±0.1% </td>
+						</tr>
+						<tr>
+							<td> Output
+							frequency resolution </td>
+							<td> Operate keyboard up
+							and down keys：0.01Hz  Potentiometer analog input：0.2Hz </td>
+						</tr>
+						<tr>
+							<td> Run command given
+							mode </td>
+							<td> The keyboard is
+							given; the external terminal is given; the serial port is given by the host
+							computer </td>
+						</tr>
+						<tr>
+							<td> Carrier
+							frequency </td>
+							<td> 2.0-12.0KHz </td>
+						</tr>
+						<tr>
+							<td> Torque boost </td>
+							<td> 0~20.0% adjustable,
+							optional v/f curve optional </td>
+						</tr>
+						<tr>
+							<td> Overload
+							capacity </td>
+							<td> 150% rated output
+							current  1 minute，180% rated output current  2 second </td>
+						</tr>
+						<tr>
+							<td> Acc/Dec time </td>
+							<td> 0.1~3600 second </td>
+						</tr>
+						<tr>
+							<td> Rated output voltage </td>
+							<td> Using the power
+							supply voltage compensation function, the motor rated voltage is 100%, which
+							can be set in the range of 50-100% (the output can not exceed the input
+							voltage) </td>
+						</tr>
+						<tr>
+							<td> AVR adjustment
+							function </td>
+							<td> When the network voltage fluctuates, the
+							output voltage fluctuation is very small and almost constant V/F </td>
+						</tr>
+						<tr>
+							<td> Standard feature </td>
+							<td> PID control, acceleration and deceleration
+							time is adjustable, variable deceleration mode, carrier frequency, torque,
+							current limiting, power off, restart, jump frequency control, lower frequency
+							running, multi speed, swing frequency, RS485, analog output, fault slip
+							compensation, automatic reset </td>
+						</tr>
+						<tr>
+							<td> Braking </td>
+							<td> Energy consumption braking, DC braking </td>
+						</tr>
+						<tr>
+							<td> Frequency setting
+							input </td>
+							<td> Keyboard digital
+							setting, external terminal AI1 (0-10V/0-20mA switchable), AI2 (0-10V/0-20mA
+							switchable), RS485 and signal combination and terminal selection </td>
+						</tr>
+						<tr>
+							<td> Signal feedback
+							input </td>
+							<td> External terminal AI1 (0-10V/0-20mA
+							switchable), AI2 (0-10V/0-20mA switchable), RS485 </td>
+						</tr>
+						<tr>
+							<td> Input instruction
+							signal </td>
+							<td> Start, stop, reverse, inching, multi
+							segment speed, free parking, reset, acceleration and deceleration time
+							selection, frequency setting, channel selection, external fault alarm, etc. </td>
+						</tr>
+						<tr>
+							<td> External output
+							signal </td>
+							<td> Relay output, collector output, 0-10V
+							output, 4-20mA output </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Protective function </td>
+							<td> Overvoltage, undervoltage, overcurrent,
+							current limit, overload, overheating, electronic thermal overload relay,
+							overvoltage stall, data protection, etc. </td>
+						</tr>
+						<tr>
+							<td rowspan="2"> Display </td>
+							<td> Four digit display (LED) </td>
+							<td> 15 kinds of parameters, such as frequency
+							setting, output frequency, output voltage, output current, motor speed,
+							output torque, digital value terminals, program menu parameters and 33kinds
+							of Fault codes </td>
+						</tr>
+						<tr>
+							<td> Indicator lamp (LED) </td>
+							<td> Run/stop status, etc. </td>
+						</tr>
+						<tr>
+							<td rowspan="5"> Operating
+							environment </td>
+							<td> Environment </td>
+							<td> Inside, low than 1000m, free from dust,
+							corrosive gas and direct sunlight </td>
+						</tr>
+						<tr>
+							<td> Ambient temperature </td>
+							<td> -10℃~+40℃（bare machine -10℃~+50℃），20%~90%RH（no condensing） </td>
+						</tr>
+						<tr>
+							<td> Vibration </td>
+							<td> less than 0.5g </td>
+						</tr>
+						<tr>
+							<td> Storage temperature </td>
+							<td> -25℃~+65℃ </td>
+						</tr>
+						<tr>
+							<td> Installation </td>
+							<td> Wall mounted or surface mounted inside a
+							cabinet </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Protection class </td>
+							<td> IP20 </td>
+						</tr>
+						<tr>
+							<td colspan="2"> Cooling </td>
+							<td> forced air cooling. </td>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container" align="center">
+					<h3>Product Outline, Mounting Dimension, and Weight</h3>
+					<img class="w3-image w3-center" src="hv390_dimensions_1.jpg" />
+					<table class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td rowspan="2">Voltage
+							level</td>
+							<td rowspan="2">Inverter
+							model</td>
+							<td colspan="6">Outline
+							construction and installation dimension（mm）</td>
+							<td rowspan="2">Weight（kg）</td>
+						</tr>
+						<tr>
+							<td>W</td>
+							<td>H</td>
+							<td>D</td>
+							<td>W1</td>
+							<td>H1</td>
+							<td>Mounting
+							hole
+							<br />
+							d</td>
+						</tr>
+						<tr>
+							<td rowspan="3"> Single phase 220V </td>
+							<td> HV390−R40G1-2 </td>
+							<td rowspan="3"> 78 </td>
+							<td rowspan="3"> 188 </td>
+							<td rowspan="3"> 126 </td>
+							<td rowspan="3"> 55 </td>
+							<td rowspan="3"> 178 </td>
+							<td rowspan="3"> 4 </td>
+							<td rowspan="3"> 1.5 </td>
+						</tr>
+						<tr>
+							<td> HV390−R75G1-2 </td>
+						</tr>
+						<tr>
+							<td> HV390−1R5G1-2 </td>
+						</tr>
+						<tr>
+							<td rowspan="3"> Three
+
+							-phase 220V </td>
+							<td> HV390−R40G2 </td>
+							<td rowspan="3"> 78 </td>
+							<td rowspan="3"> 188 </td>
+							<td rowspan="3"> 126 </td>
+							<td rowspan="3"> 55 </td>
+							<td rowspan="3"> 178 </td>
+							<td rowspan="3"> 4 </td>
+							<td rowspan="3"> 1.5 </td>
+						</tr>
+						<tr>
+							<td> HV390−R75G2 </td>
+						</tr>
+						<tr>
+							<td> HV390−1R5G2 </td>
+						</tr>
+						<tr>
+							<td rowspan="6"> Three
+
+							-phase 380V </td>
+							<td> HV390−R40G3 </td>
+							<td rowspan="4"> 78 </td>
+							<td rowspan="4"> 188 </td>
+							<td rowspan="4"> 126 </td>
+							<td rowspan="4"> 55 </td>
+							<td rowspan="4"> 178 </td>
+							<td rowspan="4"> 4 </td>
+							<td rowspan="4"> 1.5 </td>
+						</tr>
+						<tr>
+							<td> HV390−R75G3 </td>
+						</tr>
+						<tr>
+							<td> HV390−1R5G3 </td>
+						</tr>
+						<tr>
+							<td> HV390−2R2G3 </td>
+						</tr>
+						<tr>
+							<td> HV390−004G3 </td>
+							<td rowspan="2"> 96 </td>
+							<td rowspan="2"> 225 </td>
+							<td rowspan="2"> 137 </td>
+							<td rowspan="2"> 65 </td>
+							<td rowspan="2"> 215 </td>
+							<td rowspan="2"> 4 </td>
+							<td rowspan="2"> 2 </td>
+						</tr>
+						<tr>
+							<td> HV390−5R5G3 </td>
+						</tr>
+						<tr>
+							<td rowspan="6"> Three
+
+							-phase 460V </td>
+							<td> HV390−R40G4 </td>
+							<td rowspan="4"> 78 </td>
+							<td rowspan="4"> 188 </td>
+							<td rowspan="4"> 126 </td>
+							<td rowspan="4"> 55 </td>
+							<td rowspan="4"> 178 </td>
+							<td rowspan="4"> 4 </td>
+							<td rowspan="4"> 1.5 </td>
+						</tr>
+						<tr>
+							<td> HV390−R75G4 </td>
+						</tr>
+						<tr>
+							<td> HV390−1R5G4 </td>
+						</tr>
+						<tr>
+							<td> HV390−2R2G4 </td>
+						</tr>
+						<tr>
+							<td> HV390−004G4 </td>
+							<td rowspan="2"> 96 </td>
+							<td rowspan="2"> 225 </td>
+							<td rowspan="2"> 137 </td>
+							<td rowspan="2"> 65 </td>
+							<td rowspan="2"> 215 </td>
+							<td rowspan="2"> 4 </td>
+							<td rowspan="2"> 2 </td>
+						</tr>
+						<tr>
+							<td> HV390−5R5G4 </td>
+						</tr>
+
+					</table>
+				</div>
+
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<a href="hv390_catalogue.pdf"> HV390 Series Frequency Inverter Catalogue</a>
+				<br />
+				<a href="hv390_user_manual.pdf"> HV390 User Manual Completed Version_20180410</a>
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
