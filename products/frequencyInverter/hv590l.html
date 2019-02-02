@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Servo Drive HNC Electric Bulgaria</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="description" content="">
+		<meta name="author" content="radostina">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+
+		<div style="overflow:auto;">
+
+			<div class="w3-bar   w3-center w3-white" style="width:100%;overflow:hidden;">
+				<img class="w3-image w3-left" src="../../small_logo.png" style="height:40px"/>
+				<a class="w3-bar-item w3-button w3-hover-red  " href='../../index.html' title='Home'>Home</a>
+				<a class="w3-bar-item w3-button  w3-red w3-hover-red " href='../../products.html' title='Products'>Products</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../solutions.html' title='Solutions'>Solutions</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../news.html' title='News'>News</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../services.html' title='Services'>Services</a>
+
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../contacts.html' title='Contacts'>Contacts</a>
+				<a class="w3-bar-item w3-button w3-hover-red " href='../../about.html' title='About'>About</a>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-light-grey" style="width:200px;" id="mySidebar">
+			<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">
+				Close &times;
+			</button>
+			<a href="../plc.html" class="w3-bar-item w3-button">PLC</a>
+			<a href="../hmi.html" class="w3-bar-item w3-button">HMI</a>
+			<a href="../cncController.html" class="w3-bar-item w3-button">CNC Controller</a>
+			<a href="../servoDrive.html" class="w3-bar-item w3-button">Servo Drive</a>
+			<a href="../frequencyInverter.html" class="w3-bar-item w3-button">Frequency Inverter</a>
+			<a href="../spmotor.html" class="w3-bar-item w3-button">Spindle Motor</a>
+			<a href="../acservomot.html" class="w3-bar-item w3-button">AC Servo Motor</a>
+			<a href="../acc.html" class="w3-bar-item w3-button">Accessories</a>
+		</div>
+
+		<div class="w3-main" style="margin-left:200px">
+			<div class="w3-white">
+				<button class="w3-button w3-white w3-xlarge w3-hide-large" onclick="w3_open()">
+					&#9776;
+				</button>
+			</div>
+
+		</div>
+		<div class='w3-main w3-white' id='belowtopnav' style='margin-left:220px;'>
+			<div class="w3-container w3-center">
+				<img class="w3-image w3-center" src="hv590l.jpg" style="margin-top:20px" />
+			</div>
+			<h2 style="color: red">HV590L Series High Performance Elevator Drive</h2>
+
+			<div id="menu" class="w3-bar w3-red w3-border w3-border-red">
+				<button class="w3-bar-item w3-button tablink w3-white w3-hover-white" onclick="openInfoType(event,'Overview')">
+					Overview
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red  w3-hover-white" onclick="openInfoType(event,'Features')">
+					Features
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Parameters')">
+					Parameters
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Dimensions')">
+					Dimensions
+				</button>
+				<button class="w3-bar-item w3-button tablink w3-red w3-hover-white" onclick="openInfoType(event,'Download')">
+					Download
+				</button>
+			</div>
+
+			<div id="Overview" class="w3-container infoType">
+				<pre>
+HV590L series frequency inverter is the new generation Close-Loop vector control drive of HNC, it's designed special for elevator industry. It concludes below improvement & innovation based on the ordinary V/F or Close-Loop control inverter. With the high-end design and high quality and reliability, HV590L series inverter will bring the users all new experience.
+
+    1. Close-Loop vector control
+    2. Supports multiple voltage grade
+    3. Unique groups of elevator parameters
+    4. Smooth ride performance
+    5. Integrated brake control
+    6. Default factory setting user friendly factory, get you started quickly.
+    7. Indepenent S-Ramps
+    8. Programmable DC–injection braking
+
+</pre>
+			</div>
+
+			<div id="Features" class="w3-container infoType" style="display:none">
+				<pre>
+HV580L series elevator inverter has Perfect performance:
+1.   Close-Loop vector control
+2.   Supports multiple voltage grade
+3.   Unique groups of elevator parameter
+4.   Programmable DC–injection braking
+5.   Simplified parameter for easy start up
+6.   Automatic torque boost
+7.   Flexible programmable I/O connection
+8.   Output frequency 0~300Hz in Vector control mode
+9.   Motor overheating protection
+10. Prompt current limit function
+				</pre>
+			</div>
+			<div id="Parameters" class="w3-container infoType" style="display:none">
+
+				<div class="w3-container">
+					<h3>Model Definition:</h3>
+					<table border="2px" class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td rowspan="2"> Inverter
+							model </td>
+							<td colspan="2"> Motor
+							adapter </td>
+							<td rowspan="2"> Rated
+							input A </td>
+							<td rowspan="2"> Rated
+							output A </td>
+						</tr>
+						<tr>
+							<td> kW </td>
+							<td> HP </td>
+						</tr>
+						<tr>
+							<td colspan="5"> 3PH 3-phase input：AC 220V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> HV590L-004G2 </td>
+							<td> 4.0 </td>
+							<td> 5.5 </td>
+							<td> 18.1 </td>
+							<td> 16 </td>
+						</tr>
+						<tr>
+							<td> HV590L-5R5G2 </td>
+							<td> 5.5 </td>
+							<td> 7.5 </td>
+							<td> 28.0 </td>
+							<td> 25 </td>
+						</tr>
+						<tr>
+							<td> HV590L-7R5G2 </td>
+							<td> 7.5 </td>
+							<td> 10 </td>
+							<td> 37.1 </td>
+							<td> 32 </td>
+						</tr>
+						<tr>
+							<td> HV590L-011G2 </td>
+							<td> 11 </td>
+							<td> 15 </td>
+							<td> 49.8 </td>
+							<td> 45 </td>
+						</tr>
+						<tr>
+							<td> HV590L-015G2 </td>
+							<td> 15 </td>
+							<td> 20 </td>
+							<td> 65.4 </td>
+							<td> 60 </td>
+						</tr>
+						<tr>
+							<td> HV590L-018G2 </td>
+							<td> 18.5 </td>
+							<td> 25 </td>
+							<td> 81.6 </td>
+							<td> 75 </td>
+						</tr>
+						<tr>
+							<td> HV590L-022G2 </td>
+							<td> 22 </td>
+							<td> 30 </td>
+							<td> 97.7 </td>
+							<td> 90 </td>
+						</tr>
+						<tr>
+							<td colspan="5"> 3PH 3-phase input：AC 380V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> HV590L-004G3 </td>
+							<td> 4.0 </td>
+							<td> 5 </td>
+							<td> 10.5 </td>
+							<td> 8.5 </td>
+						</tr>
+						<tr>
+							<td> HV590L-5R5G3 </td>
+							<td> 5.5 </td>
+							<td> 7.5 </td>
+							<td> 15.5 </td>
+							<td> 13 </td>
+						</tr>
+						<tr>
+							<td> HV590L-7R5G3 </td>
+							<td> 7.5 </td>
+							<td> 10 </td>
+							<td> 20.5 </td>
+							<td> 16 </td>
+						</tr>
+						<tr>
+							<td> HV590L-011G3 </td>
+							<td> 11.0 </td>
+							<td> 15 </td>
+							<td> 27.5 </td>
+							<td> 25 </td>
+						</tr>
+						<tr>
+							<td> HV590L-015G3 </td>
+							<td> 15.0 </td>
+							<td> 20 </td>
+							<td> 37.1 </td>
+							<td> 32 </td>
+						</tr>
+						<tr>
+							<td> HV590L-018G3 </td>
+							<td> 18.5 </td>
+							<td> 25 </td>
+							<td> 41.9 </td>
+							<td> 38 </td>
+						</tr>
+						<tr>
+							<td> HV590L-022G3 </td>
+							<td> 22 </td>
+							<td> 30 </td>
+							<td> 49.3 </td>
+							<td> 45 </td>
+						</tr>
+						<tr>
+							<td colspan="5"> 3PH 3-phase input：AC 460V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> HV590L-004G4 </td>
+							<td> 4.0 </td>
+							<td> 5 </td>
+							<td> 9.4 </td>
+							<td> 8 </td>
+						</tr>
+						<tr>
+							<td> HV590L-5R5G4 </td>
+							<td> 5.5 </td>
+							<td> 7.5 </td>
+							<td> 12.5 </td>
+							<td> 11 </td>
+						</tr>
+						<tr>
+							<td> HV590L-7R5G4 </td>
+							<td> 7.5 </td>
+							<td> 10 </td>
+							<td> 18.3 </td>
+							<td> 15 </td>
+						</tr>
+						<tr>
+							<td> HV590L-011G4 </td>
+							<td> 11.0 </td>
+							<td> 15 </td>
+							<td> 23.1 </td>
+							<td> 22 </td>
+						</tr>
+						<tr>
+							<td> HV590L-015G4 </td>
+							<td> 15.0 </td>
+							<td> 20 </td>
+							<td> 29.8 </td>
+							<td> 27 </td>
+						</tr>
+						<tr>
+							<td> HV590L-018G4 </td>
+							<td> 18.5 </td>
+							<td> 25 </td>
+							<td> 35.7 </td>
+							<td> 34 </td>
+						</tr>
+						<tr>
+							<td> HV590L-022G4 </td>
+							<td> 22 </td>
+							<td> 30 </td>
+							<td> 41.7 </td>
+							<td> 40 </td>
+						</tr>
+
+					</table>
+					<h3> Standard Specification: </h3>
+					<table border="2px" class="w3-table w3-striped w3-bordered w3-hoverable">
+
+						<tr>
+							<td colspan="2"></td>
+							<td colspan="2"> Specifications </td>
+						</tr>
+						<tr>
+							<td rowspan="21"> Basic function </td>
+							<td> Input voltage classes </td>
+							<td colspan="2"> 3-phase input：AC 220V，50/60Hz；AC 380V，50/60Hz；AC 460V，50/60Hz </td>
+						</tr>
+						<tr>
+							<td> Control system </td>
+							<td colspan="2"> High performance vector
+							control technology to realize asynchronous or synchronous motor control </td>
+						</tr>
+						<tr>
+							<td> Maximum frequency </td>
+							<td colspan="2"> Vector control：0~300Hz；V/F control：0~3200Hz </td>
+						</tr>
+						<tr>
+							<td> Carrier frequency </td>
+							<td colspan="2"> 0.5k~16kHz; the carrier frequency will be automatically adjusted according to the load characteristics </td>
+						</tr>
+						<tr>
+							<td> Input frequency resolution </td>
+							<td colspan="2"> Digital setting： 0.01Hz;&nbsp; Analog setting：maximum frequency ×0.025% </td>
+						</tr>
+						<tr>
+							<td> Control mode </td>
+							<td colspan="2"> Open loop vector control(SVC);&nbsp;&nbsp; Closed loop vector
+							control(FVC);&nbsp;&nbsp; V/F control </td>
+						</tr>
+						<tr>
+							<td> Startup torque </td>
+							<td colspan="2"> Type G：0.5Hz/150%(SVC)；0Hz/180%(FVC)&nbsp; </td>
+						</tr>
+						<tr>
+							<td><a href="app:ds:speed%20adjustable%20range" target="_self">Speed range</a></td>
+							<td> 1：100(SVC) </td>
+							<td>
+							<br />
+							Speed range
+							<br />
+							</td>
+						</tr>
+						<tr>
+							<td> Speed stabilizing precision </td>
+							<td> ±0.5%(SVC) </td>
+							<td> Speed stabilizing precision </td>
+						</tr>
+						<tr>
+							<td> Torque control precision </td>
+							<td colspan="2"> ±5%(FVC) </td>
+						</tr>
+						<tr>
+							<td> Over load capability </td>
+							<td colspan="2"> Rated current 150% -1
+							minute, rated current 180% -3 seconds; </td>
+						</tr>
+						<tr>
+							<td> Torque boost </td>
+							<td colspan="2"> Auto torque boost function；Manual torque boost 0.1%~30.0% </td>
+						</tr>
+						<tr>
+							<td> V/F curve </td>
+							<td colspan="2"> Linear V/F, Multi-point V/F and Square V/F curve (power of 1.2, 1.4, 1.6, 1.8, 2) </td>
+						</tr>
+						<tr>
+							<td> Acc. /Dec curve </td>
+							<td colspan="2"> Straight line or S curve acceleration and deceleration mode. </td>
+						</tr>
+						<tr>
+							<td> DC brake </td>
+							<td colspan="2"> Brake frequency：0.00Hz to maximum frequency; &nbsp;Brake time：0.0s to 36.0s
+
+							Brake current value：0.0% to 100.0%. </td>
+						</tr>
+						<tr>
+							<td> Jog control </td>
+							<td colspan="2"> Jog frequency range：0.00Hz~50.00Hz. Jog acceleration/deceleration time 0.0s~6500.0s. </td>
+						</tr>
+						<tr>
+							<td> MS speed running </td>
+							<td colspan="2"> It can realize
+							at maximum of 16 segments speed running via the control terminal. </td>
+						</tr>
+						<tr>
+							<td> Auto voltage regulation
+							(AVR) </td>
+							<td colspan="2"> It can keep constant output voltage automatically increase of change of network voltage. </td>
+						</tr>
+						<tr>
+							<td> Over-voltage/current stall control </td>
+							<td colspan="2"> It can limit the running voltage/current automatically and prevent frequent over-voltage/current tripping during the running process </td>
+						</tr>
+						<tr>
+							<td> Quick current limit </td>
+							<td colspan="2"> Minimize the over-current fault, protect normal operation of the
+							inverter </td>
+						</tr>
+						<tr>
+							<td> Torque limit &amp;
+							control </td>
+							<td colspan="2"> "Excavators" characteristics, automatically limit
+							torque during operation, prevent frequent
+							over-current trip;
+
+							Closed loop vector mode
+							can realize the torque control. </td>
+						</tr>
+						<tr>
+							<td rowspan="3"> Personalized </td>
+							<td> Instantaneous stop non-stop </td>
+							<td colspan="2"> When instantaneous power off, voltage reduction is compensated through
+							load feedback energy, which could make inverter keep
+							running in a short period of time. </td>
+						</tr>
+						<tr>
+							<td> Rapid current limit </td>
+							<td colspan="2"> To avoid inverter frequent over-current fault. </td>
+						</tr>
+						<tr>
+							<td> Encoder support </td>
+							<td colspan="2"><a>Optical-electricity</a>&nbsp;<a>type</a>: Difference, Open-collector </td>
+						</tr>
+						<tr>
+							<td rowspan="6"> Running </td>
+							<td> Running command channel </td>
+							<td colspan="2"> Operation panel;&nbsp; control terminal; &nbsp;Serial communication
+							port </td>
+						</tr>
+						<tr>
+							<td> Frequency source </td>
+							<td colspan="2"> Types of frequency
+							sources, such as digital reference, analog voltage reference, analog current
+							reference, pulse reference, MS speed, PID and serial port reference. </td>
+						</tr>
+						<tr>
+							<td> Input terminal </td>
+							<td colspan="2"> Standard：
+
+							There are 6 digital input terminals; DI5 can be used as100kHz high-speed input pulse.
+
+							2 analog input terminals which can be used as 0-10V voltage input or
+							0~20mA current input.
+
+							Extended card HV590IO1：
+
+							4
+							digital input terminals,
+
+							1analog input terminals support-10~10V voltage input &amp;PT100\PT100 </td>
+						</tr>
+						<tr>
+							<td> Output terminal </td>
+							<td colspan="2"> Standard：
+
+							1 digital output terminals, Y1 is high-speed pulse output terminal (can
+							be chosen as open circuit collector type), support 0~10kHz square wave
+							signal;
+
+							2 relay output terminal;
+
+							2 analog output terminals, support 0~20mA output current or 0~10V output
+							voltage;
+
+							Extended card HV590IO2：
+
+							1 channel collector output：DO2
+
+							2 channel relay：TA3,TB3,TC3
+
+							1 analog output terminal, support 0~20mA output current or 0~10V output
+							voltage. </td>
+						</tr>
+						<tr>
+							<td> Protection function </td>
+							<td colspan="2"> It can implement power-on motor short-circuit detection, input/output phase loss protection, over current protection, over voltage protection, overheating protection and
+							over load protection. </td>
+						</tr>
+						<tr>
+							<td> Optional parts </td>
+							<td colspan="2"> 1, Brake component
+
+							2, Multi-function I/O card HV590IO1, HV590IO2
+
+							3, Differential &amp; Open-collector input PG card HV590PG1: Optional 5V/12V/24V.
+							without dividing frequency output </td>
+						</tr>
+						<tr>
+							<td rowspan="6"> Environment </td>
+							<td> Using place </td>
+							<td colspan="2"> Indoor, and be free from direct sunlight, dust, corrosive gas, combustible
+							gas, oil smoke, vapor, drips, salt. </td>
+						</tr>
+						<tr>
+							<td> Altitude </td>
+							<td colspan="2"> Below 1000m </td>
+						</tr>
+						<tr>
+							<td> Ambient temperature </td>
+							<td colspan="2"> -10 ℃ to +40 ℃ (Derating use when under
+							ambient temperature of 40 ℃ to 50 ℃) </td>
+						</tr>
+						<tr>
+							<td> Humidity </td>
+							<td colspan="2"> Less than 95%RH, without
+							condensing </td>
+						</tr>
+						<tr>
+							<td> Vibration </td>
+							<td colspan="2"> Less than 5.9 m/s2(0.6g) </td>
+						</tr>
+						<tr>
+							<td> Storage temperature </td>
+							<td colspan="2"> －20℃~＋60℃ </td>
+						</tr>
+
+					</table>
+				</div>
+
+			</div>
+
+			<div id="Dimensions" class="w3-container infoType" style="display:none">
+				<div class="w3-container" align="center">
+					<h4 align="left">Product Outline, Mounting Dimension, and Weight</h4>
+					<img class="w3-image w3-center" src="hv590l_dimensions_1.jpg" />
+					<h6 align="left">HV590-075G3 and below power class</h6>
+					<img class="w3-image w3-center" src="hv590l_dimensions_2.jpg" />
+					<img class="w3-image w3-center" src="hv590l_dimensions_3.jpg" />
+					<h6 align="left">HV590-011G3 and above power class</h6>
+					<table border="2px" class="w3-table w3-striped w3-bordered w3-hoverable">
+						<tr>
+							<td rowspan="2"> Shape DIM </td>
+							<td colspan="8"> Shape dimension and installation
+							dimension （ mm ） </td>
+							<td rowspan="2"> Weight （ kg ） </td>
+						</tr>
+						<tr>
+							<td> W </td>
+							<td> H </td>
+							<td> D </td>
+							<td> W1 </td>
+							<td> H1 </td>
+							<td> D1 </td>
+							<td> H2 </td>
+							<td> Assembly
+							aperture </td>
+						</tr>
+						<tr>
+							<td> HV590L-004G2 </td>
+							<td> 150 </td>
+							<td> 258 </td>
+							<td> 183.8 </td>
+							<td> 136.8 </td>
+							<td> 245 </td>
+							<td> 175.3 </td>
+							<td></td>
+							<td> 5.5 </td>
+							<td> 4.0 </td>
+						</tr>
+						<tr>
+							<td> HV590L-5R5G2 </td>
+							<td> 210 </td>
+							<td> 337 </td>
+							<td> 191 </td>
+							<td> 150 </td>
+							<td> 322.5 </td>
+							<td></td>
+							<td> 298 </td>
+							<td> 7 </td>
+							<td> 8.7 </td>
+						</tr>
+						<tr>
+							<td> HV590L-7R5G2 </td>
+							<td> 210 </td>
+							<td> 337 </td>
+							<td> 191 </td>
+							<td> 150 </td>
+							<td> 322.5 </td>
+							<td></td>
+							<td> 298 </td>
+							<td> 7 </td>
+							<td> 8.7 </td>
+						</tr>
+						<tr>
+							<td> HV590L-011G2 </td>
+							<td> 221 </td>
+							<td> 380 </td>
+							<td> 229.6 </td>
+							<td> 163 </td>
+							<td> 363.6 </td>
+							<td></td>
+							<td> 341 </td>
+							<td> 7 </td>
+							<td> 10 </td>
+						</tr>
+						<tr>
+							<td> HV590L-015G2 </td>
+							<td> 221 </td>
+							<td> 380 </td>
+							<td> 229.6 </td>
+							<td> 163 </td>
+							<td> 363.6 </td>
+							<td></td>
+							<td> 341 </td>
+							<td> 7 </td>
+							<td> 10 </td>
+						</tr>
+						<tr>
+							<td> HV590L-018G2 </td>
+							<td> 285 </td>
+							<td> 501 </td>
+							<td> 230.2 </td>
+							<td> 200 </td>
+							<td> 482 </td>
+							<td></td>
+							<td> 460 </td>
+							<td> 7 </td>
+							<td> 19 </td>
+						</tr>
+						<tr>
+							<td> HV590L-022G2 </td>
+							<td> 352 </td>
+							<td> 585 </td>
+							<td> 274.2 </td>
+							<td> 220 </td>
+							<td> 559 </td>
+							<td></td>
+							<td> 538 </td>
+							<td> 10 </td>
+							<td> 35 </td>
+						</tr>
+						<tr>
+							<td> HV590L-004G3 </td>
+							<td> 118.5 </td>
+							<td> 195 </td>
+							<td> 169 </td>
+							<td> 106.5 </td>
+							<td> 184.5 </td>
+							<td> 160 </td>
+							<td></td>
+							<td> 5.5 </td>
+							<td> 2.6 </td>
+						</tr>
+						<tr>
+							<td> HV590L-5R5G3 </td>
+							<td rowspan="2"> 150 </td>
+							<td rowspan="2"> 258 </td>
+							<td rowspan="2"> 183.8 </td>
+							<td rowspan="2"> 136.8 </td>
+							<td rowspan="2"> 245 </td>
+							<td rowspan="2"> 175.3 </td>
+							<td rowspan="2"></td>
+							<td rowspan="2"> 5.5 </td>
+							<td rowspan="2"> 4.0 </td>
+						</tr>
+						<tr>
+							<td> HV590L-7R5G3 </td>
+						</tr>
+						<tr>
+							<td> HV590L-011G3 </td>
+							<td rowspan="2"> 210 </td>
+							<td rowspan="2"> 337 </td>
+							<td rowspan="2"> 191 </td>
+							<td rowspan="2"> 150 </td>
+							<td rowspan="2"> 322.5 </td>
+							<td rowspan="2"></td>
+							<td rowspan="2"> 298 </td>
+							<td rowspan="2"> 7 </td>
+							<td rowspan="2"> 8.7 </td>
+						</tr>
+						<tr>
+							<td> HV590L-015G3 </td>
+						</tr>
+						<tr>
+							<td> HV590L-018G3 </td>
+							<td rowspan="2"> 221 </td>
+							<td rowspan="2"> 380 </td>
+							<td rowspan="2"> 229.6 </td>
+							<td rowspan="2"> 163 </td>
+							<td rowspan="2"> 363.6 </td>
+							<td rowspan="2"></td>
+							<td rowspan="2"> 341 </td>
+							<td rowspan="2"> 7 </td>
+							<td rowspan="2"> 10 </td>
+						</tr>
+						<tr>
+							<td> HV590L-022G3 </td>
+						</tr>
+						<tr>
+							<td> HV590L-004G4 </td>
+							<td> 118.5 </td>
+							<td> 195 </td>
+							<td> 169 </td>
+							<td> 106.5 </td>
+							<td> 184.5 </td>
+							<td> 160 </td>
+							<td></td>
+							<td> 5.5 </td>
+							<td> 2.6 </td>
+						</tr>
+						<tr>
+							<td> HV590L-5R5G4 </td>
+							<td rowspan="2"> 150 </td>
+							<td rowspan="2"> 258 </td>
+							<td rowspan="2"> 183.8 </td>
+							<td rowspan="2"> 136.8 </td>
+							<td rowspan="2"> 245 </td>
+							<td rowspan="2"> 175.3 </td>
+							<td rowspan="2"></td>
+							<td rowspan="2"> 5.5 </td>
+							<td rowspan="2"> 4.0 </td>
+						</tr>
+						<tr>
+							<td> HV590L-7R5G4 </td>
+						</tr>
+						<tr>
+							<td> HV590L-011G4 </td>
+							<td rowspan="2"> 210 </td>
+							<td rowspan="2"> 337 </td>
+							<td rowspan="2"> 191 </td>
+							<td rowspan="2"> 150 </td>
+							<td rowspan="2"> 322.5 </td>
+							<td rowspan="2"></td>
+							<td rowspan="2"> 298 </td>
+							<td rowspan="2"> 7 </td>
+							<td rowspan="2"> 8.7 </td>
+						</tr>
+						<tr>
+							<td> HV590L-015G4 </td>
+						</tr>
+						<tr>
+							<td> HV590L-018G4 </td>
+							<td rowspan="2"> 221 </td>
+							<td rowspan="2"> 380 </td>
+							<td rowspan="2"> 229.6 </td>
+							<td rowspan="2"> 163 </td>
+							<td rowspan="2"> 363.6 </td>
+							<td rowspan="2"></td>
+							<td rowspan="2"> 341 </td>
+							<td rowspan="2"> 7 </td>
+							<td rowspan="2"> 10 </td>
+						</tr>
+						<tr>
+							<td> HV590L-022G4 </td>
+						</tr>
+					</table>
+
+				</div>
+			</div>
+			<div id="Download" class="w3-container infoType" style="display:none">
+				<a href="hv590l_catalogue.pdf">HV590L Series Elevator Drive Catalogue</a>
+				<br />
+				<a href="hv590l_user_manual.pdf"> HV590L Series Frequency Inverter User Manual</a>
+			</div>
+		</div>
+		<script>
+			function openInfoType(evt, infoTypeName) {
+				var i;
+				var x = document.getElementsByClassName("infoType");
+				for ( i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for ( i = 0; i < x.length; i++) {
+					tablinks[i].className = tablinks[i].className.replace(" w3-white", " w3-red");
+				}
+				document.getElementById(infoTypeName).style.display = "block";
+				evt.currentTarget.className += " w3-white";
+				var elmnt = document.getElementById("menu");
+				elmnt.scrollIntoView();
+			}
+		</script>
+
+		<script>
+			function w3_open() {
+				document.getElementById("mySidebar").style.display = "block";
+			}
+
+			function w3_close() {
+				document.getElementById("mySidebar").style.display = "none";
+			}
+		</script>
+	</body>
+</html>
