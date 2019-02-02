@@ -4,8 +4,7 @@ a8c - downloads, works - rar - What is it & user manual
 a1p - no image
 a2p - no image
 a2p - user manual and programming manual don't load, but I think are the same as a1p
-Uploading the user manuals
-TITLE!!!
+
 ?????? ???????? ????? ?? ?? ?????? ????????!!!
 
 
@@ -26,4 +25,5 @@ hca8c - user manual leads to the overview page, not a documentation
 hover text na link-ovete
 return focus of the mouse on the page after changing menu items(Overview, Features, param etc.)
 overview na hsv180as - govori za hsv180ad
-da opravq tablicite 
+
+da opravq feature <pre> to <p>
